@@ -11,7 +11,7 @@ The card lists industry and technology programmes with a stated amount in the Po
 - Assignment 3: `A3_CHEUNG_Yuk_Yuen/`. The external skill is better-writing.
 - Google Sheet: https://docs.google.com/spreadsheets/d/1Nr4XOrgmN3wJ44HHLVwDYQaRkt7oi6D_qz0EIGy9lJ0/edit
 
-`HKEX_original` holds the HKEX figures. `Year_after` holds the comparison of each address with the following year.
+`HKEX_original` holds the HKEX figures. `Year_after` holds the board comparison. `Industry` holds each funded industry against the HKEX line that names it.
 
 ## Run it again
 

@@ -12,6 +12,8 @@ A Policy Address sentence that names an industry without an amount is not a fund
 
 The market outcome of an address is the next calendar year's HKEX statistics. The same year's full-year total is the baseline, not the outcome. If the next year is only partly published, use the published months and name them. If it is not published, write `not stated in source`.
 
+Score each industry named in a funding sentence on its own. A board IPO total is context. It does not stand in for life and health, AI, robotics, semiconductors, new energy, film, aerospace, or construction. If HKEX does not publish that industry's figure, write `not stated in source` for that industry.
+
 CHEUNG Yuk Yuen is the AI Application Trainee. Do not describe the agent as holding that post.
 
 better-writing may edit the influence paragraph only. It may not change an amount, a date, a label, or a URL.

@@ -8,7 +8,7 @@ The assignment names better-writing. The page is https://skills.sh/forjd/better-
 
 ## First use
 
-The draft is `outputs/influence_before.md`, a generic English paragraph. The rewrite is `influence_after.md`. It keeps the following-year path: 2023 down 55.8%, 2024 up 88.9%, 2025 up 226% to HK$286.9 billion, and the first eight months of 2026 at HK$342.4 billion. Dates and amounts were not changed.
+The draft is `outputs/influence_before.md`, a generic English paragraph. The rewrite is `influence_after.md`. It keeps the industry figures: Kelun-Biotech HK$1.56 billion, REPT BATTERO HK$2.12 billion, Sino-Synergy Hydrogen HK$1.56 billion, Horizon Robotics HK$6.09 billion, RoboSense HK$1.06 billion, 16 biotech listings, five specialist technology listings, and their combined HK$19.8 billion. No amount was added or dropped.
 
 ## Friction
 

@@ -40,6 +40,6 @@ Sheet: https://docs.google.com/spreadsheets/d/1Nr4XOrgmN3wJ44HHLVwDYQaRkt7oi6D_q
 
 Workbook: `A1_CHEUNG_Yuk_Yuen/outputs/term_market.xlsx`.
 
-After the 2022 address, 2023 IPO funds fell 55.8% to HK$46,294.9 million. After the 2023 address, 2024 IPO funds rose 88.9% to HK$87,477.8 million. After the 2024 address, 2025 IPO funds rose 226% to HK$286.9 billion, and new economy sectors were 66% of capital raised. After the 2025 address, the first eight months of 2026 raised HK$342.4 billion, up 153%. The 2026 address has no published 2027 figure.
+Life and health shows up as Kelun-Biotech at HK$1.56 billion in 2023, then as 16 Biotech Companies in 2025. Those 16 listings and five Specialist Technology Companies raised HK$19.8 billion together, against the Listing Committee IPO total of HK$285.8 billion. HengRui Pharma raised HK$11.4 billion and is kept separate. AI and robotics shows up as Horizon Robotics at HK$6.09 billion and RoboSense at HK$1.06 billion in 2024. New energy shows up as REPT BATTERO Energy at HK$2.12 billion and Sino-Synergy Hydrogen Energy at HK$1.56 billion in 2023. Semi-conductors, advanced materials, film, aerospace and construction have no industry total in the outcome window.
 
 Self-check: the amounts match the cited pages. The industry overlap is in the 2024 largest-IPO list and in the 2025 new-economy share. HKEX does not attribute those totals to these funds. The Industry-Oriented Fund was still expected to launch in 2026.

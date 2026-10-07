@@ -55,6 +55,14 @@ HKEX_HL = (
     "https://www.hkex.com.hk/Market-Data/Statistics/Consolidated-Reports/"
     "HKEX-Monthly-Market-Highlights?sc_lang=en"
 )
+HKEX_2024_RESULTS = (
+    "https://www.hkex.com.hk/-/media/HKEX-Market/News/News-Release/2025/"
+    "250227news/250227_FY-Results_e.pdf"
+)
+LC = (
+    "https://www.hkex.com.hk/-/media/HKEX-Market/Listing/How-We-Regulate/"
+    "Listing-Committee/Listing-Committee-Report/AnnualRpt_{year}dec.pdf"
+)
 SHEET = "https://docs.google.com/spreadsheets/d/1Nr4XOrgmN3wJ44HHLVwDYQaRkt7oi6D_qz0EIGy9lJ0/edit"
 
 # year, programme, amount, unit, industries, source, note
@@ -246,6 +254,199 @@ WINDOWS = [
     ("2026", "", "2027 not published", "following year not yet published"),
 ]
 
+# One HKEX fact per policy industry. amount is None when the page does not state it.
+# unit "companies" and "percent" are not money and are not converted.
+INDUSTRY = [
+    (
+        "Life and health",
+        "2022",
+        "2023 full year",
+        "Sichuan Kelun-Biotech Biopharmaceutical, ten largest IPOs",
+        1.56,
+        "HK$ billion",
+        HKEX_2023,
+        "Market Statistics 2023, printed page 7. The printed name includes Biotech and the -B marker.",
+    ),
+    (
+        "New energy",
+        "2022",
+        "2023 full year",
+        "REPT BATTERO Energy, ten largest IPOs",
+        2.12,
+        "HK$ billion",
+        HKEX_2023,
+        "Market Statistics 2023, printed page 7. The printed name includes Energy.",
+    ),
+    (
+        "New energy",
+        "2022",
+        "2023 full year",
+        "Sino-Synergy Hydrogen Energy Technology, ten largest IPOs",
+        1.56,
+        "HK$ billion",
+        HKEX_2023,
+        "Market Statistics 2023, printed page 7. The printed name includes Hydrogen Energy.",
+    ),
+    (
+        "AI and robotics",
+        "2023",
+        "2024 full year",
+        "Horizon Robotics, ten largest IPOs",
+        6.09,
+        "HK$ billion",
+        HKEX_2024,
+        "Market Statistics 2024, printed page 7. The 2023 address says AI and data science. The printed name says Robotics.",
+    ),
+    (
+        "AI and robotics",
+        "2023",
+        "2024 full year",
+        "RoboSense Technology, ten largest IPOs",
+        1.06,
+        "HK$ billion",
+        HKEX_2024,
+        "Market Statistics 2024, printed page 7.",
+    ),
+    (
+        "Specialist technology",
+        "2023",
+        "2024 full year",
+        "Chapter 18C listings",
+        3,
+        "companies",
+        HKEX_2024_RESULTS,
+        "2024 Final Results, p.11. First Chapter 18C listing was 13 June 2024. The five 18C industries are not split.",
+    ),
+    (
+        "New economy, wider than the policy list",
+        "2023",
+        "2024 full year",
+        "Share of capital raised",
+        None,
+        "almost 82%",
+        HKEX_2024_RESULTS,
+        "2024 Final Results, p.11. HKEX does not define new economy as the Policy Address industry list.",
+    ),
+    (
+        "Life and health",
+        "2024",
+        "2025 full year",
+        "Biotech Companies listed",
+        16,
+        "companies",
+        LC.format(year=2025),
+        "Listing Committee Report 2025, p.3.",
+    ),
+    (
+        "Specialist technology",
+        "2024",
+        "2025 full year",
+        "Specialist Technology Companies listed",
+        5,
+        "companies",
+        LC.format(year=2025),
+        "Listing Committee Report 2025, p.3. Combined with the 16 biotech listings, HK$19.8 billion.",
+    ),
+    (
+        "Life and health plus specialist technology",
+        "2024",
+        "2025 full year",
+        "Funds raised by the 16 biotech and 5 specialist technology listings",
+        19.8,
+        "HK$ billion",
+        LC.format(year=2025),
+        "The page prints one combined sum. It is not split between the two chapters.",
+    ),
+    (
+        "Life and health",
+        "2024",
+        "2025 full year",
+        "HengRui Pharma, H-share listing",
+        11.4,
+        "HK$ billion",
+        LC.format(year=2025),
+        "Listing Committee Report 2025, p.2. Named separately from the HK$19.8 billion. Not added to it.",
+    ),
+    (
+        "New energy",
+        "2024",
+        "2025 full year",
+        "Contemporary Amperex Technology, named among the largest IPOs",
+        None,
+        "not stated in source",
+        LC.format(year=2025),
+        "Listing Committee Report 2025, p.2 names the company and does not print its proceeds.",
+    ),
+    (
+        "AI",
+        "2024",
+        "2025 full year",
+        "Hesai, WeRide and Pony AI, named as homecoming listings",
+        None,
+        "not stated in source",
+        LC.format(year=2025),
+        "Listing Committee Report 2025, p.2. No separate proceeds.",
+    ),
+    (
+        "Semi-conductors",
+        "2024",
+        "2025 full year",
+        "No semiconductor IPO total",
+        None,
+        "not stated in source",
+        LC.format(year=2025),
+        "The 2024 address names semi-conductors and smart devices. The 2025 Listing Committee report does not.",
+    ),
+    (
+        "Advanced materials",
+        "2024",
+        "2025 full year",
+        "No advanced-materials IPO total",
+        None,
+        "not stated in source",
+        LC.format(year=2023),
+        "Advanced materials is one of five Chapter 18C industries, Listing Committee Report 2023, p.6. The 2025 count of five specialist technology listings is not split.",
+    ),
+    (
+        "Film and creative industries",
+        "2023",
+        "2024 full year",
+        "No film IPO line",
+        None,
+        "not stated in source",
+        HKEX_2024,
+        "Market Statistics 2024 does not report film or CreateSmart fundraising.",
+    ),
+    (
+        "Aerospace",
+        "2025",
+        "2026, first eight months",
+        "No aerospace IPO line",
+        None,
+        "not stated in source",
+        HKEX_HL,
+        "The highlights page has no industry split. Cirrus Aircraft, HK$1.51 billion, is on the 2024 ten-largest list, before this earmark.",
+    ),
+    (
+        "Construction",
+        "2026",
+        "2027 not published",
+        "No construction IPO line",
+        None,
+        "not stated in source",
+        HKEX_HL,
+        "The following year is not published.",
+    ),
+]
+
+# Board IPO total used only as the denominator for an industry amount from the same window.
+# 2025 uses the Listing Committee's HK$285.8 billion, because 19.8 and 11.4 are printed in that report.
+BOARD_IPO = {
+    "2023 full year": 46294.9,
+    "2024 full year": 87477.8,
+    "2025 full year": 285800,
+}
+
 MARKET_WORDING = {
     "2022": "The address says Hong Kong has an active stock market. It states no IPO total and no turnover.",
     "2023": "Paragraph 71 accepts the recommendations of the Task Force on Enhancing Stock Market Liquidity. It states no IPO total.",
@@ -269,17 +470,17 @@ It is important to note that the government's market perspective and the HKEX fi
 """.strip()
 
 INFLUENCE_AFTER = """
-The market after each Policy Address is the next calendar year, not the year the speech describes.
+Each funded industry is scored on the HKEX line that names it in the following year. The board IPO total is only the denominator.
 
-After 19 October 2022, HKEX recorded IPO funds of HK$46,294.9 million in 2023, down 55.8%, and average daily turnover of HK$105,012 million, down 15.9%. The address had set aside HK$30 billion for the Co-Investment Fund, HK$10 billion for RAISe+, and HK$5 billion for the Strategic Tech Fund. Those stated sums come to HK$45 billion, close to the size of the 2023 IPO total. The year after the first package was a smaller IPO market, not a larger one.
+Life and health technology is named in the 2022 Strategic Tech Fund, the 2023 New Industrialisation Acceleration Scheme, and the 2024 I&T Industry-Oriented Fund. In 2023, Sichuan Kelun-Biotech raised HK$1.56 billion, on the ten-largest list. Market Statistics 2023 prints no biotech count. In 2024, the results print no biotech count. In 2025, the Listing Committee records 16 Biotech Companies. With five Specialist Technology Companies, those listings raised HK$19.8 billion. The same report's IPO total is HK$285.8 billion. HengRui Pharma, an H-share named separately, raised HK$11.4 billion. The page does not add that to the HK$19.8 billion.
 
-After 25 October 2023, IPO funds in 2024 were HK$87,477.8 million, up 88.9%, and average daily turnover was HK$131,825 million, up 25.5%. Horizon Robotics (HK$6.09 billion) and RoboSense (HK$1.06 billion) were on the list of the ten largest IPOs, as was InnoScience (HK$1.40 billion). Midea Group was the largest, at HK$35.67 billion. The New Industrialisation Acceleration Scheme was HK$10 billion, with a ceiling of HK$200 million per project.
+AI and data science is the 2022 and 2023 wording. AI and robotics is the 2024 wording. In 2024, Horizon Robotics raised HK$6.09 billion and RoboSense HK$1.06 billion. HKEX records three Chapter 18C listings that year, the first on 13 June 2024. Chapter 18C, from 31 March 2023, covers next-generation information technology, advanced hardware and software, advanced materials, new energy and environmental protection, and new food and agriculture technologies. The three listings are not split across those five industries. In 2025 the Listing Committee names Hesai, WeRide and Pony AI and records five Specialist Technology Companies. It prints no separate AI proceeds.
 
-After 16 October 2024, Hong Kong raised HK$286.9 billion from 119 IPOs in 2025, up 226%, and headline average daily turnover reached HK$249.8 billion, up 90%. New economy sectors accounted for 66% of capital raised, including 21 listings under the Chapter 18 series for biotech and specialist technology. HKEX attributes the rebound to global IPO demand, frontier technologies in the region, and local market reforms. The HK$10 billion I&T Industry-Oriented Fund was still expected to launch in 2026, so it was not deploying through that IPO year. The sums named in the 2024 address are about 5% of the 2025 IPO total.
+New energy is named from 2022 onward. In 2023, REPT BATTERO Energy raised HK$2.12 billion and Sino-Synergy Hydrogen Energy HK$1.56 billion. In 2025 the Listing Committee names Contemporary Amperex Technology among the largest IPOs and prints no proceeds for it.
 
-After 17 September 2025, the first eight months of 2026 raised HK$342.4 billion through IPOs, up 153% on HK$135.1 billion a year earlier, and average daily turnover was HK$282.5 billion, up 14%. Those eight months fall after the address. They leave out September to December 2025 and the rest of 2026. The Hong Kong AI Research and Development Institute, earmarked at HK$1 billion, was to be established in 2026.
+Semi-conductors and advanced materials are named in the 2024 fund. The 2025 report has no semiconductor total and no advanced-materials total. The HK$4.3 billion film and creative injection has no film line in the 2024 statistics. The aerospace earmark of over HK$100 million has no aerospace line in the first eight months of 2026. Cirrus Aircraft, HK$1.51 billion, is a 2024 IPO. The HK$1 billion construction injection has no 2027 figure.
 
-The address of 16 September 2026 adds HK$1 billion for the Innovation and Technology Venture Fund, HK$1 billion for the Artificial Intelligence Subsidy Scheme, HK$300 million for the AI for Welfare Lab, and HK$1 billion for the Construction Innovation and Technology Fund. HKEX has not published 2027. The August 2026 highlights stop on 31 August, before this address, so they are not its outcome.
+The board and these industries do not move as one number. IPO funds fell 55.8% in 2023 while Kelun-Biotech and the two energy companies were still on the ten-largest list. IPO funds rose 226% in 2025, while the 16 biotech and five specialist technology listings together raised HK$19.8 billion.
 """.strip()
 
 
@@ -331,6 +532,27 @@ def write_markdown() -> None:
         "The 2025 results print HK$286.9 billion on pages 7 and 11, and 286.8 on page 17. The outcome row uses 286.9. 286.8 is kept in the Google Sheet and is not averaged.",
         "Market Statistics 2024, printed page 7, lists the ten largest IPOs. The amount column is in HK$ billion. Horizon Robotics is 6.09, RoboSense is 1.06, InnoScience is 1.40, and Midea Group is 35.67.",
         "",
+        "## The industry, not the board",
+        "",
+        "A row is an HKEX fact that names the industry, or an explicit statement that the page does not. The board IPO total is not copied into a blank industry cell.",
+        "",
+        "| Policy industry | Address | Outcome window | HKEX evidence | Amount | Unit |",
+        "| --- | --- | --- | --- | --- | --- |",
+    ]
+    for industry, address, window, evidence, amount, unit, url, note in INDUSTRY:
+        if amount is None and unit != "not stated in source":
+            shown, unit_shown = unit, ""
+        elif amount is None:
+            shown, unit_shown = "not stated in source", ""
+        else:
+            shown, unit_shown = str(amount), unit
+        lines.append(f"| {industry} | {address} | {window} | {evidence} | {shown} | {unit_shown} |")
+        lines.append(f"|  | Note |  | {note} | {url} |  |")
+    lines += [
+        "",
+        "Chapter 18C's five industries are printed in the Listing Committee Report 2023, p.6: next-generation information technology, advanced hardware and software, advanced materials, new energy and environmental protection, and new food and agriculture technologies.",
+        "The 2025 Listing Committee report also prints an IPO total of HK$285.8 billion. The results announcement prints HK$286.9 billion, and p.17 prints 286.8. They are not averaged. The industry share uses HK$285.8 billion because HK$19.8 billion and HK$11.4 billion are in the Listing Committee report.",
+        "",
         "## Scale",
         "",
         "Stated amounts in an address, converted to HK$ million, divided by IPO funds in the outcome window. The workbook calculates the ratio. It is a size comparison. HKEX does not call it a cause.",
@@ -371,8 +593,14 @@ def write_markdown() -> None:
         "",
         "Outcome, Market Statistics 2023, p.3:",
         "",
-        "- IPO funds raised, Main Board and GEM: HK$46,294.9 million, down 55.8% on the prior year.",
+        "- IPO funds raised, Main Board and GEM: HK$46,294.9 million, down 55.8% on the prior year. This is the denominator, not the industry result.",
         "- Average daily turnover: HK$105,012 million, down 15.9%.",
+        "",
+        "Industries named in the 2022 address, as they appear on the 2023 ten-largest IPO list (Market Statistics 2023, printed page 7):",
+        "",
+        "- Life and health: Sichuan Kelun-Biotech Biopharmaceutical, HK$1.56 billion.",
+        "- New energy: REPT BATTERO Energy, HK$2.12 billion, and Sino-Synergy Hydrogen Energy Technology, HK$1.56 billion.",
+        "- AI and data science: no 2023 ten-largest name states AI. That industry's 2023 proceeds are not stated in source.",
         "",
         "Label: following year recorded, source does not attribute it to the address.",
         "The 2022 full-year IPO total of HK$104,570.3 million is the baseline in the 2023 table. It is not the outcome of the October 2022 address.",
@@ -525,6 +753,64 @@ def write_workbook(path: Path) -> None:
     chart_sheet.column_dimensions["B"].width = 32
     chart_sheet.column_dimensions["C"].width = 28
 
+    industry = wb.create_sheet("Industry")
+    industry_headers = [
+        "policy_industry",
+        "address_year",
+        "outcome_window",
+        "hkex_evidence",
+        "amount_as_printed",
+        "unit",
+        "hkd_million",
+        "board_ipo_hkd_million",
+        "industry_share_of_ipo",
+        "source_url",
+        "note",
+    ]
+    industry.append(industry_headers)
+    for cell in industry[1]:
+        cell.fill = header_fill
+        cell.font = header_font
+        cell.alignment = Alignment(wrap_text=True, vertical="center")
+    for offset, row in enumerate(INDUSTRY, start=2):
+        policy, address, window, evidence, amount, unit, url, note = row
+        industry.cell(offset, 1, policy).font = blue
+        industry.cell(offset, 2, int(address)).font = blue
+        industry.cell(offset, 3, window).font = blue
+        industry.cell(offset, 4, evidence).font = blue
+        if amount is None and unit != "not stated in source":
+            industry.cell(offset, 5, unit).font = blue
+            industry.cell(offset, 6, "").font = blue
+        elif amount is None:
+            industry.cell(offset, 5, "not stated in source").font = blue
+            industry.cell(offset, 6, unit).font = blue
+        else:
+            industry.cell(offset, 5, amount).font = blue
+            industry.cell(offset, 6, unit).font = blue
+        # Money converts. Counts and percents stay blank so they cannot be added to IPO funds.
+        industry.cell(offset, 7, hkd_million_formula(offset).replace("E", "F").replace("D", "E")).font = black
+        industry.cell(offset, 7).number_format = "#,##0.0"
+        board = BOARD_IPO.get(window)
+        if amount is not None and unit == "HK$ billion" and board is not None:
+            industry.cell(offset, 8, board).font = blue
+            industry.cell(offset, 8).number_format = "#,##0.0"
+            industry.cell(offset, 9, f'=IF(OR(G{offset}="",H{offset}=""),"",G{offset}/H{offset})').font = black
+            industry.cell(offset, 9).number_format = "0.0%"
+        else:
+            industry.cell(offset, 8, "not used").font = blue
+            industry.cell(offset, 9, "not stated in source").font = blue
+        industry.cell(offset, 10, url).font = blue
+        note_cell = industry.cell(offset, 11, note)
+        note_cell.font = blue
+        note_cell.alignment = Alignment(wrap_text=True)
+    industry.auto_filter.ref = f"A1:K{1 + len(INDUSTRY)}"
+    industry.freeze_panes = "A2"
+    industry.row_dimensions[1].height = 32
+    for col, width in enumerate([28, 14, 26, 55, 20, 22, 16, 24, 22, 36, 55], start=1):
+        industry.column_dimensions[get_column_letter(col)].width = width
+    industry["A21"] = "Share = this row's HK$ million / the board IPO total for the same window. Counts are not shares."
+    industry["A22"] = "The 2025 denominator is HK$285,800 million, the Listing Committee's HK$285.8 billion, because 19.8 and 11.4 are printed there."
+
     path.parent.mkdir(parents=True, exist_ok=True)
     wb.save(path)
 
@@ -618,11 +904,15 @@ def write_pdfs() -> None:
             s["body"],
         ),
         Paragraph(
-            "After the 2022 address, 2023 IPO funds fell 55.8% to HK$46,294.9 million. After the 2023 address, 2024 IPO funds rose 88.9% to HK$87,477.8 million. After the 2024 address, 2025 IPO funds rose 226% to HK$286.9 billion, with new economy sectors at 66% of capital raised. After the 2025 address, the first eight months of 2026 raised HK$342.4 billion, up 153%. The 2026 address has no 2027 figure.",
+            "Life and health: Kelun-Biotech raised HK$1.56 billion in 2023. HKEX prints no biotech count for 2023 or 2024. In 2025 it records 16 Biotech Companies. With five Specialist Technology Companies they raised HK$19.8 billion, against the Listing Committee's IPO total of HK$285.8 billion. HengRui Pharma raised HK$11.4 billion and is not added to that sum.",
             s["body"],
         ),
         Paragraph(
-            "Self-check: every amount used below is on an official page. The industry overlap is real for 2024 listings and for the 2025 new-economy share. HKEX does not attribute those totals to these funds, and the HK$10 billion Industry-Oriented Fund had not launched during the 2025 IPO year.",
+            "AI and robotics: Horizon Robotics raised HK$6.09 billion in 2024 and RoboSense HK$1.06 billion. There were three Chapter 18C listings. In 2025 the Listing Committee names Hesai, WeRide and Pony AI and does not print their proceeds. New energy: REPT BATTERO Energy HK$2.12 billion and Sino-Synergy Hydrogen Energy HK$1.56 billion in 2023. Contemporary Amperex Technology is named in 2025 without a proceeds figure. Semi-conductors, advanced materials, film, aerospace and construction have no industry total in the outcome window.",
+            s["body"],
+        ),
+        Paragraph(
+            "Self-check: a company is tagged with an industry only when the HKEX page's name says so, or when the Listing Committee names the category. The board IPO change is the denominator. The HK$10 billion Industry-Oriented Fund was still expected to launch in 2026.",
             s["body"],
         ),
         Paragraph("Following-year window", s["h2"]),
@@ -649,6 +939,21 @@ def write_pdfs() -> None:
             [18 * mm, 42 * mm, 36 * mm, 22 * mm, 68 * mm],
         ),
         Spacer(1, 3 * mm),
+        Paragraph("Policy industry in the following year", s["h2"]),
+        pdf_table(
+            [["Industry", "After", "Evidence", "Amount"]]
+            + [
+                [
+                    industry,
+                    window,
+                    evidence,
+                    unit if amount is None and unit != "not stated in source" else ("not stated in source" if amount is None else f"{amount} {unit}"),
+                ]
+                for industry, _address, window, evidence, amount, unit, _url, _note in INDUSTRY
+            ],
+            [32 * mm, 32 * mm, 78 * mm, 44 * mm],
+        ),
+        Spacer(1, 3 * mm),
         Paragraph("Programmes with a stated amount", s["h2"]),
         pdf_table(
             [["Year", "Programme", "Amount", "Industries"]]
@@ -672,6 +977,8 @@ def write_pdfs() -> None:
                 ["IPO funds in that window", "not stated in source", "HK$46,294.9 million, down 55.8%"],
                 ["Venture-fund sentence", "Additional HK$1 billion", "That sentence is absent"],
                 ["Largest stated fund", "HK$1 billion, four programmes", "Co-Investment Fund, HK$30 billion"],
+                ["Life and health in the next year", "not stated in source", "Kelun-Biotech, HK$1.56 billion"],
+                ["New energy in the next year", "not stated in source", "REPT BATTERO HK$2.12 billion; hydrogen HK$1.56 billion"],
             ],
             [36 * mm, 75 * mm, 75 * mm],
         ),
@@ -688,7 +995,7 @@ def write_pdfs() -> None:
         ),
         Paragraph("First use", s["h2"]),
         Paragraph(
-            "The draft in outputs/influence_before.md was a generic English paragraph. The rewrite in influence_after.md keeps the following-year figures: 2023 down 55.8%, 2024 up 88.9%, 2025 up 226% to HK$286.9 billion, and the first eight months of 2026 at HK$342.4 billion. It also keeps the dates 19 October 2022, 25 October 2023, 16 October 2024, 17 September 2025, and 16 September 2026. No amount was added or dropped.",
+            "The draft in outputs/influence_before.md was a generic English paragraph. The rewrite in influence_after.md keeps the industry figures: Kelun-Biotech HK$1.56 billion, REPT BATTERO HK$2.12 billion, Sino-Synergy Hydrogen HK$1.56 billion, Horizon Robotics HK$6.09 billion, RoboSense HK$1.06 billion, 16 biotech listings, five specialist technology listings, and their combined HK$19.8 billion. No amount was added or dropped.",
             s["body"],
         ),
         Paragraph("Friction", s["h2"]),
@@ -794,7 +1101,7 @@ def write_prose_files() -> None:
                 "",
                 "Workbook: `A1_CHEUNG_Yuk_Yuen/outputs/term_market.xlsx`.",
                 "",
-                "After the 2022 address, 2023 IPO funds fell 55.8% to HK$46,294.9 million. After the 2023 address, 2024 IPO funds rose 88.9% to HK$87,477.8 million. After the 2024 address, 2025 IPO funds rose 226% to HK$286.9 billion, and new economy sectors were 66% of capital raised. After the 2025 address, the first eight months of 2026 raised HK$342.4 billion, up 153%. The 2026 address has no published 2027 figure.",
+                "Life and health shows up as Kelun-Biotech at HK$1.56 billion in 2023, then as 16 Biotech Companies in 2025. Those 16 listings and five Specialist Technology Companies raised HK$19.8 billion together, against the Listing Committee IPO total of HK$285.8 billion. HengRui Pharma raised HK$11.4 billion and is kept separate. AI and robotics shows up as Horizon Robotics at HK$6.09 billion and RoboSense at HK$1.06 billion in 2024. New energy shows up as REPT BATTERO Energy at HK$2.12 billion and Sino-Synergy Hydrogen Energy at HK$1.56 billion in 2023. Semi-conductors, advanced materials, film, aerospace and construction have no industry total in the outcome window.",
                 "",
                 "Self-check: the amounts match the cited pages. The industry overlap is in the 2024 largest-IPO list and in the 2025 new-economy share. HKEX does not attribute those totals to these funds. The Industry-Oriented Fund was still expected to launch in 2026.",
                 "",
@@ -816,7 +1123,7 @@ def write_prose_files() -> None:
                 "",
                 "Do not use it when there is no official text, when the question is a forecast, or when a newspaper figure would replace an HKEX figure.",
                 "",
-                "The second run used only the 2022 XML. Its outcome is the 2023 HKEX year: IPO funds of HK$46,294.9 million, down 55.8%, and average daily turnover of HK$105,012 million, down 15.9%. It does not contain the additional HK$1 billion for the Innovation and Technology Venture Fund. That sentence is in the 2026 address. The Co-Investment Fund in the 2022 address is HK$30 billion.",
+                "The second run used only the 2022 XML. Its outcome year is 2023. Life and health appears as Kelun-Biotech at HK$1.56 billion. New energy appears as REPT BATTERO Energy at HK$2.12 billion and Sino-Synergy Hydrogen Energy at HK$1.56 billion. The board IPO total of HK$46,294.9 million is the denominator. The run does not contain the additional HK$1 billion for the Innovation and Technology Venture Fund. That sentence is in the 2026 address. The Co-Investment Fund in the 2022 address is HK$30 billion.",
                 "",
             ]
         ),
@@ -836,7 +1143,7 @@ def write_prose_files() -> None:
                 "",
                 "## First use",
                 "",
-                "The draft is `outputs/influence_before.md`, a generic English paragraph. The rewrite is `influence_after.md`. It keeps the following-year path: 2023 down 55.8%, 2024 up 88.9%, 2025 up 226% to HK$286.9 billion, and the first eight months of 2026 at HK$342.4 billion. Dates and amounts were not changed.",
+                "The draft is `outputs/influence_before.md`, a generic English paragraph. The rewrite is `influence_after.md`. It keeps the industry figures: Kelun-Biotech HK$1.56 billion, REPT BATTERO HK$2.12 billion, Sino-Synergy Hydrogen HK$1.56 billion, Horizon Robotics HK$6.09 billion, RoboSense HK$1.06 billion, 16 biotech listings, five specialist technology listings, and their combined HK$19.8 billion. No amount was added or dropped.",
                 "",
                 "## Friction",
                 "",
@@ -899,7 +1206,7 @@ def write_prose_files() -> None:
                 "- Assignment 3: `A3_CHEUNG_Yuk_Yuen/`. The external skill is better-writing.",
                 f"- Google Sheet: {SHEET}",
                 "",
-                "`HKEX_original` holds the HKEX figures. `Year_after` holds the comparison of each address with the following year.",
+                "`HKEX_original` holds the HKEX figures. `Year_after` holds the board comparison. `Industry` holds each funded industry against the HKEX line that names it.",
                 "",
                 "## Run it again",
                 "",

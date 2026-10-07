@@ -25,14 +25,15 @@ Use this skill when the user supplies one Policy Address and asks how that addre
 5. Funding section: keep a row only when the same sentence states an amount and commits, earmarks, injects, redeploys, or sets up a named fund. Record the programme, the amount as printed, the industries named in that sentence, and the paragraph number when the paragraph has one.
 6. Put sentences that name an industry but no amount under "Direction stated, amount not stated".
 7. Do not treat a private investor's money, a Construction Industry Council sum, or a target for future private investment as government funding.
-8. Outcome section: copy the HKEX IPO funds and average daily turnover for the next calendar year from the Google Sheet `HKEX original market figures` or from the HKEX PDF cited there. Copy the value, unit, as-of date, printed percentage change, and URL. If two official rows differ, keep both and do not average them.
-9. Set one outcome label:
+8. Outcome section: copy the HKEX IPO funds and average daily turnover for the next calendar year from the Google Sheet `HKEX original market figures` or from the HKEX PDF cited there. Copy the value, unit, as-of date, printed percentage change, and URL. If two official rows differ, keep both and do not average them. These board totals are context.
+9. Industry section: one row per industry named in a funding sentence. Match it to an HKEX line for the outcome year that names that industry, a Chapter 18A or 18C count, or a company on HKEX's ten-largest IPO list whose printed name states the industry. Record the amount, unit, and URL. If the page gives no figure for that industry, write `not stated in source`. Do not use a board total as the industry result. Do not add a Chapter 18A figure to a Chapter 18C figure unless the source already prints the combined sum.
+10. Set one outcome label:
    - `following year recorded, source does not attribute it to the address`
    - `following year only partly published`
    - `following year not yet published`
    - `source attributes the market result to this policy`
-10. Compare scale with a formula: stated government amount in HK$ million, divided by the outcome window's IPO funds in HK$ million. Label the result as a size comparison. Do not call it a causal share.
-11. Hand only the influence paragraph to better-writing. Leave amounts, dates, labels, and URLs unchanged.
+11. Compare scale with a formula: the industry amount in HK$ million, divided by IPO funds in the same outcome window. Label the result as a size comparison. Do not call it a causal share.
+12. Hand only the influence paragraph to better-writing. Leave amounts, dates, labels, and URLs unchanged.
 
 ## Quality bar
 
@@ -43,6 +44,7 @@ Use this skill when the user supplies one Policy Address and asks how that addre
 - Do not forecast a year HKEX has not published, and do not recommend buying or selling.
 - Do not add Main Board and GEM totals to a Mainland-enterprise subset or to one row of the funds-by-type table.
 - A rerun on another year must not reuse the previous year's amounts.
+- A board IPO total does not fill a blank industry row.
 
 ## Do not
 
