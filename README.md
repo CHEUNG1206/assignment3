@@ -11,7 +11,7 @@ The card lists industry and technology programmes with a stated amount in the Po
 - Assignment 3: `A3_CHEUNG_Yuk_Yuen/`. The external skill is better-writing.
 - Google Sheet: https://docs.google.com/spreadsheets/d/1Nr4XOrgmN3wJ44HHLVwDYQaRkt7oi6D_qz0EIGy9lJ0/edit
 
-`HKEX_original` holds the HKEX figures. `Year_after` holds the board comparison. `Industry` holds each funded industry against the HKEX line that names it.
+`HKEX_original` holds the HKEX figures. `Year_after` holds the board comparison. `Industry` holds each funded industry. `C18_before_after` starts on 31 March 2023, when Chapter 18C took effect.
 
 ## Run it again
 

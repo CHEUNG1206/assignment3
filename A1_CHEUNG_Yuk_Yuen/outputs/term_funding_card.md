@@ -145,6 +145,50 @@ Stated amounts in an address, converted to HK$ million, divided by IPO funds in 
 - 2025 address, HK$4.1 billion stated, against HK$342.4 billion raised in the first eight months of 2026. A full 2026 year would make this share smaller.
 - 2026 address, HK$3.3 billion stated. The 2027 IPO total is not stated in source, so no share is calculated.
 
+## From the day the rule started
+
+The measure is Chapter 18C, effective 31 March 2023. Listings under that chapter before that day were zero, because the chapter did not exist. The HK$10 billion I&T Industry-Oriented Fund is left out. The 2026 Policy Address still said it was expected to launch in 2026, and that page gives no disbursement date.
+
+Source for every listing: HKEX, 18C Explained, as of end-March 2026. The page states 14 companies and HK$28.4 billion. The rows below are the same table.
+
+| Company | Listing date | Funds, HK$ million |
+| --- | --- | --- |
+| XtalPi Holdings Ltd. | 2024-06-13 | 1036 |
+| Black Sesame International Holdings Ltd. | 2024-08-08 | 1036 |
+| Shenzhen Dobot Corp. Ltd. | 2024-12-23 | 831 |
+| Beijing Yunji Technology Co., Ltd. | 2025-10-16 | 759 |
+| Deepexi Technology Co., Ltd. | 2025-10-28 | 710 |
+| WeRide Inc. | 2025-11-06 | 2392 |
+| CiDi Inc. | 2025-12-19 | 1422 |
+| Beijing 51World Digital Twin Technology Co., Ltd. | 2025-12-30 | 731 |
+| Shanghai Biren Technology Co., Ltd. | 2026-01-02 | 6420 |
+| Knowledge Atlas Technology JSC Ltd. | 2026-01-08 | 5000 |
+| MiniMax Group Inc. | 2026-01-09 | 5540 |
+| Guangdong Huayan Robotics Co., Ltd. | 2026-03-30 | 1579 |
+| Shandong Extreme Vision Technology Co., Ltd. | 2026-03-30 | 499 |
+| Shanghai FourSemi Semiconductor Co., Ltd. | 2026-03-31 | 480 |
+
+Page: https://www.hkexgroup.com/Media-Centre/Insight/Insight/2026/HKEX-Insight/18C-Explained?sc_lang=en
+
+The same years, with the HKMA Base Rate at year end and Southbound Stock Connect average daily turnover. The 18C funds are the sum of the rows above. The share uses the board IPO total for that year.
+
+| Year | 18C listings | 18C funds, HK$ million | Base Rate, year end | Southbound ADT, HK$ billion | Board IPO, HK$ million |
+| --- | --- | --- | --- | --- | --- |
+| 2022 | 0 | 0 | 4.75% | 31.7 | 104,570.3 |
+| 2023 | 0 | 0 | 5.75% | 31.1 | 46,294.9 |
+| 2024 | 3 | 2,903 | 4.75% | 48.2 | 87,477.8 |
+| 2025 | 5 | 6,014 | 4.00% | 121.1 | 285,800 |
+| 2026 to 31 Mar | 6 | 19,518 | not stated in source | not stated in source | not stated in source |
+
+Base Rate: https://www.hkma.gov.hk/media/eng/publication-and-research/annual-report/2022/14_Monetary_Stability.pdf ; https://www.hkma.gov.hk/media/eng/publication-and-research/annual-report/2024/14_Monetary_Stability.pdf ; https://www.hkma.gov.hk/media/eng/publication-and-research/annual-report/2025/AR_2025E.pdf
+Southbound: https://www.hkexgroup.com/Media-Centre/Insight/Insight/2026/HKEX-Insight/Stock-Connect-2025-Review?sc_lang=en
+
+HKEX's 2024 annual report says the global IPO market was still affected by high interest rates, and that Hong Kong's second-half recovery followed stimulus measures in Mainland China. The 2025 results attribute that rebound to global IPO demand, frontier technologies in the region, and local market reforms.
+
+Biotech already had Chapter 18A. New biotech listings were 20 in 2021 and 8 in 2022 (Market Statistics 2022, p.3) and 16 in 2025 (Listing Committee Report 2025, p.3). Counts for 2023 and 2024 are not stated in those HKEX pages.
+
+The rule is the date the count leaves zero. The first listing, XtalPi, was on 13 June 2024. Of the HK$28,435 million in the table, HK$19,518 million is in the first quarter of 2026, after the Base Rate had been cut to 4.00% and after Southbound ADT had reached HK$121.1 billion. The 2024 18C funds are about 3.3% of that year's IPO total. The 2025 18C funds are about 2.1% of HK$285.8 billion.
+
 ## Influence
 
 Each funded industry is scored on the HKEX line that names it in the following year. The board IPO total is only the denominator.

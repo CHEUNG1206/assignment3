@@ -439,6 +439,50 @@ INDUSTRY = [
     ),
 ]
 
+# Chapter 18C listings from HKEX "18C, Explained", as of end-March 2026.
+# Funds are HK$ million, as printed. The page also states a combined HK$28.4 billion.
+C18_URL = (
+    "https://www.hkexgroup.com/Media-Centre/Insight/Insight/2026/"
+    "HKEX-Insight/18C-Explained?sc_lang=en"
+)
+C18_LISTINGS = [
+    ("XtalPi Holdings Ltd.", "2024-06-13", 2024, 1036),
+    ("Black Sesame International Holdings Ltd.", "2024-08-08", 2024, 1036),
+    ("Shenzhen Dobot Corp. Ltd.", "2024-12-23", 2024, 831),
+    ("Beijing Yunji Technology Co., Ltd.", "2025-10-16", 2025, 759),
+    ("Deepexi Technology Co., Ltd.", "2025-10-28", 2025, 710),
+    ("WeRide Inc.", "2025-11-06", 2025, 2392),
+    ("CiDi Inc.", "2025-12-19", 2025, 1422),
+    ("Beijing 51World Digital Twin Technology Co., Ltd.", "2025-12-30", 2025, 731),
+    ("Shanghai Biren Technology Co., Ltd.", "2026-01-02", 2026, 6420),
+    ("Knowledge Atlas Technology JSC Ltd.", "2026-01-08", 2026, 5000),
+    ("MiniMax Group Inc.", "2026-01-09", 2026, 5540),
+    ("Guangdong Huayan Robotics Co., Ltd.", "2026-03-30", 2026, 1579),
+    ("Shandong Extreme Vision Technology Co., Ltd.", "2026-03-30", 2026, 499),
+    ("Shanghai FourSemi Semiconductor Co., Ltd.", "2026-03-31", 2026, 480),
+]
+# year, base rate at year end, southbound ADT HK$ billion, board IPO HK$ million, sources
+# 2026 is only the first quarter of listings. Rate, southbound and board IPO for that quarter are not on these pages.
+CONTROLS = [
+    (2022, 0.0475, 31.7, 104570.3, "Before Chapter 18C. Base Rate end-2022. Southbound ADT. IPO from Market Statistics 2022."),
+    (2023, 0.0575, 31.1, 46294.9, "Chapter effective 31 Mar 2023. No 18C listing this year. Base Rate end-2023 was 5.75%."),
+    (2024, 0.0475, 48.2, 87477.8, "Three 18C listings. Base Rate cut from 5.75% to 4.75%. Southbound ADT HK$48.2 billion."),
+    (2025, 0.0400, 121.1, 285800.0, "Five 18C listings. Base Rate cut from 4.75% to 4.00%. Southbound ADT HK$121.1 billion. Board IPO is the Listing Committee figure."),
+    (2026, None, None, None, "Listings through 31 Mar 2026 only. A full-year Base Rate, Southbound ADT and board IPO are not stated in source."),
+]
+HKMA_2022 = "https://www.hkma.gov.hk/media/eng/publication-and-research/annual-report/2022/14_Monetary_Stability.pdf"
+HKMA_2024 = "https://www.hkma.gov.hk/media/eng/publication-and-research/annual-report/2024/14_Monetary_Stability.pdf"
+HKMA_2025 = "https://www.hkma.gov.hk/media/eng/publication-and-research/annual-report/2025/AR_2025E.pdf"
+SOUTHBOUND_URL = (
+    "https://www.hkexgroup.com/Media-Centre/Insight/Insight/2026/"
+    "HKEX-Insight/Stock-Connect-2025-Review?sc_lang=en"
+)
+BIOTECH_COUNTS = [
+    (2021, 20, HKEX_2022, "Market Statistics 2022, p.3, prior-year column. Chapter 18A already existed."),
+    (2022, 8, HKEX_2022, "Market Statistics 2022, p.3. New biotech listings."),
+    (2025, 16, LC.format(year=2025), "Listing Committee Report 2025, p.3. 2023 and 2024 biotech counts are not in these HKEX pages."),
+]
+
 # Board IPO total used only as the denominator for an industry amount from the same window.
 # 2025 uses the Listing Committee's HK$285.8 billion, because 19.8 and 11.4 are printed in that report.
 BOARD_IPO = {
@@ -562,6 +606,40 @@ def write_markdown() -> None:
         "- 2024 address, HK$13.93 billion stated, against 2025 IPO funds of HK$286.9 billion.",
         "- 2025 address, HK$4.1 billion stated, against HK$342.4 billion raised in the first eight months of 2026. A full 2026 year would make this share smaller.",
         "- 2026 address, HK$3.3 billion stated. The 2027 IPO total is not stated in source, so no share is calculated.",
+        "",
+        "## From the day the rule started",
+        "",
+        "The measure is Chapter 18C, effective 31 March 2023. Listings under that chapter before that day were zero, because the chapter did not exist. The HK$10 billion I&T Industry-Oriented Fund is left out. The 2026 Policy Address still said it was expected to launch in 2026, and that page gives no disbursement date.",
+        "",
+        "Source for every listing: HKEX, 18C Explained, as of end-March 2026. The page states 14 companies and HK$28.4 billion. The rows below are the same table.",
+        "",
+        "| Company | Listing date | Funds, HK$ million |",
+        "| --- | --- | --- |",
+    ]
+    for name, listed, _year, funds in C18_LISTINGS:
+        lines.append(f"| {name} | {listed} | {funds} |")
+    lines += [
+        "",
+        f"Page: {C18_URL}",
+        "",
+        "The same years, with the HKMA Base Rate at year end and Southbound Stock Connect average daily turnover. The 18C funds are the sum of the rows above. The share uses the board IPO total for that year.",
+        "",
+        "| Year | 18C listings | 18C funds, HK$ million | Base Rate, year end | Southbound ADT, HK$ billion | Board IPO, HK$ million |",
+        "| --- | --- | --- | --- | --- | --- |",
+        "| 2022 | 0 | 0 | 4.75% | 31.7 | 104,570.3 |",
+        "| 2023 | 0 | 0 | 5.75% | 31.1 | 46,294.9 |",
+        "| 2024 | 3 | 2,903 | 4.75% | 48.2 | 87,477.8 |",
+        "| 2025 | 5 | 6,014 | 4.00% | 121.1 | 285,800 |",
+        "| 2026 to 31 Mar | 6 | 19,518 | not stated in source | not stated in source | not stated in source |",
+        "",
+        f"Base Rate: {HKMA_2022} ; {HKMA_2024} ; {HKMA_2025}",
+        f"Southbound: {SOUTHBOUND_URL}",
+        "",
+        "HKEX's 2024 annual report says the global IPO market was still affected by high interest rates, and that Hong Kong's second-half recovery followed stimulus measures in Mainland China. The 2025 results attribute that rebound to global IPO demand, frontier technologies in the region, and local market reforms.",
+        "",
+        "Biotech already had Chapter 18A. New biotech listings were 20 in 2021 and 8 in 2022 (Market Statistics 2022, p.3) and 16 in 2025 (Listing Committee Report 2025, p.3). Counts for 2023 and 2024 are not stated in those HKEX pages.",
+        "",
+        "The rule is the date the count leaves zero. The first listing, XtalPi, was on 13 June 2024. Of the HK$28,435 million in the table, HK$19,518 million is in the first quarter of 2026, after the Base Rate had been cut to 4.00% and after Southbound ADT had reached HK$121.1 billion. The 2024 18C funds are about 3.3% of that year's IPO total. The 2025 18C funds are about 2.1% of HK$285.8 billion.",
         "",
         "## Influence",
         "",
@@ -811,6 +889,72 @@ def write_workbook(path: Path) -> None:
     industry["A21"] = "Share = this row's HK$ million / the board IPO total for the same window. Counts are not shares."
     industry["A22"] = "The 2025 denominator is HK$285,800 million, the Listing Committee's HK$285.8 billion, because 19.8 and 11.4 are printed there."
 
+    listings = wb.create_sheet("C18_listings")
+    listings.append(["company", "listing_date", "year", "funds_hkd_million", "source_url"])
+    for cell in listings[1]:
+        cell.fill = header_fill
+        cell.font = header_font
+    for offset, (name, listed, year, funds) in enumerate(C18_LISTINGS, start=2):
+        listings.cell(offset, 1, name).font = blue
+        listings.cell(offset, 2, listed).font = blue
+        listings.cell(offset, 3, year).font = blue
+        listings.cell(offset, 4, funds).font = blue
+        listings.cell(offset, 4).number_format = "#,##0"
+        listings.cell(offset, 5, C18_URL).font = blue
+    last_listing = 1 + len(C18_LISTINGS)
+    listings.cell(last_listing + 2, 1, "Page total, HK$ billion, as printed").font = blue
+    listings.cell(last_listing + 2, 2, 28.4).font = blue
+    listings.cell(last_listing + 3, 1, "Sum of the rows, HK$ million").font = black
+    listings.cell(last_listing + 3, 2, f"=SUM(D2:D{last_listing})").font = black
+    listings.cell(last_listing + 3, 2).number_format = "#,##0"
+    for col, width in enumerate([55, 16, 12, 22, 55], start=1):
+        listings.column_dimensions[get_column_letter(col)].width = width
+    listings.freeze_panes = "A2"
+
+    rule = wb.create_sheet("C18_before_after")
+    rule.append([
+        "year",
+        "c18_listings",
+        "c18_funds_hkd_million",
+        "base_rate_year_end",
+        "southbound_adt_hkd_billion",
+        "board_ipo_hkd_million",
+        "c18_share_of_board_ipo",
+        "note",
+    ])
+    for cell in rule[1]:
+        cell.fill = header_fill
+        cell.font = header_font
+        cell.alignment = Alignment(wrap_text=True, vertical="center")
+    for offset, (year, rate, south, board, note) in enumerate(CONTROLS, start=2):
+        rule.cell(offset, 1, year).font = blue
+        rule.cell(offset, 2, f'=COUNTIF(C18_listings!C:C,A{offset})').font = black
+        rule.cell(offset, 3, f'=SUMIF(C18_listings!C:C,A{offset},C18_listings!D:D)').font = black
+        rule.cell(offset, 3).number_format = "#,##0"
+        if rate is None:
+            rule.cell(offset, 4, "not stated in source").font = blue
+            rule.cell(offset, 5, "not stated in source").font = blue
+            rule.cell(offset, 6, "not stated in source").font = blue
+            rule.cell(offset, 7, "not stated in source").font = blue
+        else:
+            rule.cell(offset, 4, rate).font = blue
+            rule.cell(offset, 4).number_format = "0.00%"
+            rule.cell(offset, 5, south).font = blue
+            rule.cell(offset, 6, board).font = blue
+            rule.cell(offset, 6).number_format = "#,##0.0"
+            rule.cell(offset, 7, f'=IF(F{offset}="", "", C{offset}/F{offset})').font = black
+            rule.cell(offset, 7).number_format = "0.0%"
+        rule.cell(offset, 8, note).font = blue
+        rule.cell(offset, 8).alignment = Alignment(wrap_text=True)
+    rule["A8"] = "Chapter 18C effective 31 March 2023. First listing 13 June 2024."
+    rule["A9"] = "The I&T Industry-Oriented Fund has no disbursement date in the 2026 Policy Address. It is not in this table."
+    rule["A10"] = "2022 Base Rate: HKMA Annual Report 2022. 2023 and 2024: HKMA Annual Report 2024. 2025: HKMA Annual Report 2025."
+    rule["A11"] = "Southbound ADT: HKEX Stock Connect 2025 Review, February 2026."
+    rule.freeze_panes = "A2"
+    rule.row_dimensions[1].height = 32
+    for col, width in enumerate([12, 16, 26, 22, 30, 26, 24, 78], start=1):
+        rule.column_dimensions[get_column_letter(col)].width = width
+
     path.parent.mkdir(parents=True, exist_ok=True)
     wb.save(path)
 
@@ -952,6 +1096,27 @@ def write_pdfs() -> None:
                 for industry, _address, window, evidence, amount, unit, _url, _note in INDUSTRY
             ],
             [32 * mm, 32 * mm, 78 * mm, 44 * mm],
+        ),
+        Spacer(1, 3 * mm),
+        Paragraph("Chapter 18C from its effective date", s["h2"]),
+        Paragraph(
+            "Chapter 18C took effect on 31 March 2023. Listings under it before that day were zero. The first listing was XtalPi on 13 June 2024. By end-March 2026, HKEX records 14 companies and HK$28.4 billion. The rows sum to HK$28,435 million. HK$19,518 million of that is in the first quarter of 2026. The HK$10 billion I&T Industry-Oriented Fund has no disbursement date in the 2026 address, so it is not counted here.",
+            s["body"],
+        ),
+        pdf_table(
+            [
+                ["Year", "18C listings", "18C funds, HK$ m", "Base Rate", "Southbound ADT", "Board IPO, HK$ m"],
+                ["2022", "0", "0", "4.75%", "31.7", "104,570.3"],
+                ["2023", "0", "0", "5.75%", "31.1", "46,294.9"],
+                ["2024", "3", "2,903", "4.75%", "48.2", "87,477.8"],
+                ["2025", "5", "6,014", "4.00%", "121.1", "285,800"],
+                ["2026 to 31 Mar", "6", "19,518", "not stated", "not stated", "not stated"],
+            ],
+            [28 * mm, 24 * mm, 32 * mm, 24 * mm, 32 * mm, 36 * mm],
+        ),
+        Paragraph(
+            "The count leaves zero on 13 June 2024, fourteen months after the rule. The large block of money is in the first quarter of 2026, after the Base Rate had been cut to 4.00% and Southbound ADT had reached HK$121.1 billion. HKEX attributes the 2025 rebound to global IPO demand, frontier technologies, and local market reforms. Biotech, under Chapter 18A since 2018, had 20 new listings in 2021, 8 in 2022, and 16 in 2025.",
+            s["body"],
         ),
         Spacer(1, 3 * mm),
         Paragraph("Programmes with a stated amount", s["h2"]),
@@ -1103,7 +1268,7 @@ def write_prose_files() -> None:
                 "",
                 "Life and health shows up as Kelun-Biotech at HK$1.56 billion in 2023, then as 16 Biotech Companies in 2025. Those 16 listings and five Specialist Technology Companies raised HK$19.8 billion together, against the Listing Committee IPO total of HK$285.8 billion. HengRui Pharma raised HK$11.4 billion and is kept separate. AI and robotics shows up as Horizon Robotics at HK$6.09 billion and RoboSense at HK$1.06 billion in 2024. New energy shows up as REPT BATTERO Energy at HK$2.12 billion and Sino-Synergy Hydrogen Energy at HK$1.56 billion in 2023. Semi-conductors, advanced materials, film, aerospace and construction have no industry total in the outcome window.",
                 "",
-                "Self-check: the amounts match the cited pages. The industry overlap is in the 2024 largest-IPO list and in the 2025 new-economy share. HKEX does not attribute those totals to these funds. The Industry-Oriented Fund was still expected to launch in 2026.",
+                "Chapter 18C took effect on 31 March 2023. There was no listing under it until XtalPi on 13 June 2024. Three listings in 2024 raised HK$2,903 million. Five in 2025 raised HK$6,014 million. Six from 1 January to 31 March 2026 raised HK$19,518 million. HKEX states 14 companies and HK$28.4 billion by end-March 2026. Over the same years the HKMA Base Rate went from 4.75% at end-2022 to 5.75% at end-2023, then to 4.75% and 4.00%. Southbound ADT went from HK$31.7 billion to HK$31.1 billion, HK$48.2 billion, and HK$121.1 billion. The Industry-Oriented Fund has no disbursement date in the 2026 address, so it is not counted in these listings.",
                 "",
             ]
         ),
@@ -1206,7 +1371,7 @@ def write_prose_files() -> None:
                 "- Assignment 3: `A3_CHEUNG_Yuk_Yuen/`. The external skill is better-writing.",
                 f"- Google Sheet: {SHEET}",
                 "",
-                "`HKEX_original` holds the HKEX figures. `Year_after` holds the board comparison. `Industry` holds each funded industry against the HKEX line that names it.",
+                "`HKEX_original` holds the HKEX figures. `Year_after` holds the board comparison. `Industry` holds each funded industry. `C18_before_after` starts on 31 March 2023, when Chapter 18C took effect.",
                 "",
                 "## Run it again",
                 "",
