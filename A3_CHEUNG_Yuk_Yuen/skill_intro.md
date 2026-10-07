@@ -2,14 +2,16 @@
 
 ## What it is
 
-better-writing rewrites prose for a named reader and genre. The trigger is a draft that should be clearer, or a request to remove generic AI phrasing. The steps are: read the brief, set the reading, audit the draft against its reference lists, rewrite, then self-audit with a preflight checklist. Facts, numbers, and quoted wording stay as they were, and inflated claims are cut or restated at their true strength.
+better-writing rewrites prose for a named reader and genre. Trigger: a request to improve, humanise, de-AI, or copy-edit a draft. Steps: read the brief, set the reading, audit the draft against its reference lists, rewrite, then run a preflight checklist. Quality bar: no invented facts, figures kept, inflated claims cut or restated at their true strength.
 
-## How CHEUNG Yuk Yuen used it
+## How to use it
 
-Install path: `.agents/skills/better-writing/SKILL.md`, also linked at `.cursor/skills/better-writing`.
+Install: `npx skills add forjd/better-writing`, which puts it in `.agents/skills/better-writing/` and links it at `.cursor/skills/better-writing`.
 
-It was applied to the findings paragraph after policy-funding-card had filled the tables. The input was `A3_CHEUNG_Yuk_Yuen/outputs/influence_before.md`. The output is `influence_after.md`. Each step is recorded in `better_writing_run.md`. The rewrite removed two causal claims that the figures do not support.
+Invoke: type `/better-writing` in Cursor chat with the file, or ask the agent to apply better-writing to it.
+
+Input in this trial: `outputs/influence_before.md`, a rough findings draft. Output: `outputs/influence_after.md`. Each step is in `outputs/better_writing_run.md`.
 
 ## Work application
 
-CHEUNG Yuk Yuen's post is AI Application Trainee in the Department of Physics. In that work, public technical or policy pages have to become a note someone else can check. better-writing is the last pass on the explanation. The tables stay with the extraction skill. The manual step it replaces is deleting filler and inflated claims before the note is handed on.
+As AI Application Trainee in the Department of Physics, I write technology-research notes from public pages for colleagues. After the facts are checked, better-writing is the last pass that removes filler and claims the sources do not support.

@@ -1,13 +1,12 @@
 # Skill note
 
-Name: policy-funding-card.
+- Skill: policy-funding-card. Trigger: "policy-funding-card", "policy address" or "施政報告" with one address.
+- Use it when a new Policy Address is published and the question is which industries get a stated sum, whether the sum is new, and what their IPOs did afterwards.
+- Do not use it without the official text, for a forecast, or to replace an HKEX figure with a newspaper one.
+- Second run: the 2022 address alone. It found HK$40,000.0 million of new money and marked the HK$5 billion Strategic Tech Fund as already in place.
+- Its window, 19 Oct 2022 to 24 Oct 2023, shows life and health at 17.4% of Main Board IPO funds and no new-energy IPO by the name screen.
+- Worked: the run kept the 2026 HK$1 billion venture-fund amount out of the 2022 card.
+- Failed first: industries were matched only on HKEX's ten-largest IPO list, and money announced before an address counted as new.
+- Changed: the skill now reads every IPO in the New Listing Reports from the delivery date, and records each funding verb as a status.
 
-Trigger: one Policy Address, turned into a funding card and scored on the IPOs of the industries it names, from the delivery date.
-
-Use it when a new address is published and the question is which industries received a stated sum, whether the sum is new, and what those industries' IPOs did afterwards.
-
-Do not use it when there is no official text, when the question is a forecast, or when a newspaper figure would replace an HKEX figure.
-
-The second run used only the 2022 XML. It found HK$40,000.0 million of new money: the HK$30 billion Co-Investment Fund and the HK$10 billion RAISe+ Scheme. It marked the HK$5 billion Strategic Tech Fund as already in place. Its window runs 19 Oct 2022 to 24 Oct 2023. In that window life and health raised HK$8,215.2 million, 17.4% of the Main Board, and the name screen found no new-energy IPO. The run does not contain the additional HK$1 billion for the Innovation and Technology Venture Fund. That sentence is in the 2026 address.
-
-![2022 address: the year before and the window after](outputs/run2_2022_before_after.png)
+![Run 2 before and after](outputs/run2_2022_before_after.png)

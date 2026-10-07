@@ -1011,40 +1011,6 @@ def write_pdfs(d: Data, before: str, after: str) -> None:
     report = [
         Paragraph("Assignment 1: Policy Address funding and the industries it named", s["h1"]),
         Paragraph("CHEUNG Yuk Yuen, AI Application Trainee, Department of Physics. 7 October 2026.", s["body"]),
-        Paragraph("1. The task", s["h2"]),
-        Paragraph(
-            "I am CHEUNG Yuk Yuen. The reader is someone who wants to check public documents. The task covers the Policy Addresses after John Lee took office on 1 July 2022, through 16 September 2026. "
-            "For each address I record which industries the Government funds with a stated amount, whether that money is new in the address, and what happened to those industries' IPOs on HKEX after delivery. "
-            "A figure with no source is marked not stated in source. Two official figures that differ are both kept.",
-            s["body"],
-        ),
-        Paragraph("2. How I did it", s["h2"]),
-        Paragraph(
-            "The first version compared each address with the HKEX total for the year of the speech. That total includes the months before delivery, so I moved the outcome to the following calendar year. "
-            "A review of that version found more problems. Some funding sentences describe money announced before the address. The industry evidence came only from HKEX's ten-largest IPO list. "
-            "A ratio divided government funding by later IPO funds, which are unrelated sums. This version fixes each of them.",
-            s["body"],
-        ),
-        Paragraph("The Policy Address PDFs have no text layer here. I used the Chief Executive's Office English XML, pa2022.xml through pa2026.xml, and copied the verb of every funding sentence into a status column.", s["body"]),
-        Paragraph(
-            "For industries I read every Main Board IPO in the HKEX New Listing Reports for 2021 to 29 September 2026. Biotech uses HKEX's B marker. Other industries use a keyword screen on the company name, published with its exclusions, and treated as a lower bound. "
-            "Each address is scored from its delivery date to the day before the next one, against the 12 months before the first address.",
-            s["body"],
-        ),
-        Paragraph("Chapter 18C is measured from its effective date, 31 March 2023, beside the HKMA Base Rate and Southbound Stock Connect turnover. The HK$10 billion I&T Industry-Oriented Fund is left out because it has not launched.", s["body"]),
-        Paragraph("The workbook stores the printed amounts and every listing row in blue input cells. Conversions, window totals, and shares are formulas, recalculated in LibreOffice.", s["body"]),
-        Paragraph("3. Course concepts", s["h2"]),
-        pdf_table(
-            [
-                ["Concept", "How I used it", "What changed"],
-                ["Plan Mode", "The outcome window was fixed before the cards were rebuilt: delivery date to the day before the next address.", "No month before a speech is counted as its outcome."],
-                ["AGENTS.md", "Missing facts stay not stated in source. Differing official figures are both kept. Verbs decide whether money is new.", "286.9, 286.8, 285.8 and the NLR sum are listed, not averaged. 2025 has no new amount."],
-                ["Skills", "policy-funding-card extracts one address. better-writing edits the findings paragraph only.", "The 2022 rerun did not copy a 2026 amount."],
-                ["Memory", "Only the identity stated in the earlier assignments.", "No university, degree, or Chinese personal name was added."],
-                ["MCP", "HKEX figures and the funding rows sit in a Google Sheet.", "Each comparison has its own tab."],
-            ],
-            [24 * mm, 86 * mm, 76 * mm],
-        ),
         Paragraph("4. Result", s["h2"]),
         Paragraph(f"Card: A1_CHEUNG_Yuk_Yuen/outputs/term_funding_card.md. Sheet: {SHEET}. Workbook: outputs/term_market.xlsx, sheets Industry_windows and Industry_by_year.", s["body"]),
         *after_paras,
@@ -1089,67 +1055,14 @@ def write_pdfs(d: Data, before: str, after: str) -> None:
             [12 * mm, 46 * mm, 22 * mm, 36 * mm, 70 * mm],
         ),
     ]
-    write_pdf(A1 / "report.pdf", report)
+    # The submitted report is one page (src/submission.py); the full tables and charts go to outputs/.
+    result_at = next(k for k, item in enumerate(report) if isinstance(item, Paragraph) and item.getPlainText() == "4. Result")
+    analysis = [
+        Paragraph("Assignment 1 analysis: Policy Address funding and the industries it named", s["h1"]),
+        Paragraph("CHEUNG Yuk Yuen, AI Application Trainee, Department of Physics. 7 October 2026. Companion to report.pdf.", s["body"]),
+    ] + report[result_at + 1 :]
+    write_pdf(A1 / "outputs" / "analysis.pdf", analysis)
 
-    note = [
-        Paragraph("Skill note: policy-funding-card", s["h1"]),
-        Paragraph("Trigger: one Policy Address, turned into a funding card and scored on the IPOs of the industries it names, from the delivery date.", s["body"]),
-        Paragraph("Use it when a new address is published and the question is which industries received a stated sum, whether the sum is new, and what those industries' IPOs did afterwards.", s["body"]),
-        Paragraph("Do not use it when there is no official text, when the question is a forecast, or when a newspaper figure would replace an HKEX figure.", s["body"]),
-        Paragraph(
-            f"The second run used only the 2022 XML. It found HK${m(d.new_total['2022'])} million of new money and marked the HK$5 billion Strategic Tech Fund as already in place. "
-            "It does not contain the additional HK$1 billion for the Innovation and Technology Venture Fund, which is a 2026 sentence.",
-            s["body"],
-        ),
-        Paragraph("Two runs side by side", s["h2"]),
-        pdf_table(
-            [
-                ["", "2026 address, main card", "2022 address, second run"],
-                ["New money in the address", f"HK${m(d.new_total['2026'])} million", f"HK${m(d.new_total['2022'])} million"],
-                ["Already in place", f"HK${m(d.earlier_total['2026'])} million", f"HK${m(d.earlier_total['2022'])} million"],
-                ["Industry window", window_label(d, "After 2026") + ", 14 days", window_label(d, "After 2022")],
-                ["Main Board in that window", f"{d.board['After 2026']['board_ipos']} IPOs, HK${m(d.board['After 2026']['board_hkd_million'])} million", f"{d.board['After 2022']['board_ipos']} IPOs, HK${m(d.board['After 2022']['board_hkd_million'])} million"],
-                ["Life and health", f"{m(d.funds('After 2026', 'Life and health'))}", f"{m(d.funds('After 2022', 'Life and health'))}, {pct(d.share('After 2022', 'Life and health'))}"],
-                ["New energy", f"{m(d.funds('After 2026', 'New energy'))}", f"{m(d.funds('After 2022', 'New energy'))}"],
-            ],
-            [44 * mm, 71 * mm, 71 * mm],
-        ),
-        Spacer(1, 3 * mm),
-        Paragraph("2022 address: the 12 months before and the window after, HK$ billion", s["h2"]),
-        figure(paths["run2"]),
-    ]
-    write_pdf(A2 / "skill_note.pdf", note)
-
-    mb, ma = text_metrics(before), text_metrics(after)
-    reflection = [
-        Paragraph("Assignment 3 reflection: better-writing", s["h1"]),
-        Paragraph("CHEUNG Yuk Yuen, AI Application Trainee, Department of Physics.", s["body"]),
-        Paragraph("Where I found it", s["h2"]),
-        Paragraph("The assignment names better-writing. The page is https://skills.sh/forjd/better-writing/better-writing. I used it on the findings paragraph, because the tables have to keep the source figures and only the explanation needed work.", s["body"]),
-        Paragraph("First use", s["h2"]),
-        Paragraph(
-            "I wrote a rough draft of the findings, outputs/influence_before.md, and ran the skill's five steps on it: read the brief, set the reading, audit against the reference lists, rewrite, and run the preflight checks. "
-            "The record is outputs/better_writing_run.md. The audit found throat-clearing, significance inflation, and an essay closer. "
-            "Two clauses claimed a cause the figures do not show: 'a testament to the power of targeted policy' and 'a driving force behind the market's transformation'. The skill says to cut inflation or restate it at its true strength, so both went.",
-            s["body"],
-        ),
-        pdf_table(
-            [["Measure", "Before", "After"]] + [[k, str(mb[k]), str(ma[k])] for k in mb],
-            [70 * mm, 40 * mm, 40 * mm],
-        ),
-        Spacer(1, 2 * mm),
-        figure(paths["draft"]),
-        Paragraph(f"Every figure in the rewrite is also in the draft. A script checks that the after set is a subset of the before set: all {len(figures_in(before))} distinct figures in the draft are kept, and none is added.", s["body"]),
-        Paragraph("Friction", s["h2"]),
-        Paragraph("The skill edits prose and does not check facts. When the draft said 'testament to the power of targeted policy', the skill's rule removed the clause, but deciding that the claim was unsupported needed the funding status and the fund's launch date from the card.", s["body"]),
-        Paragraph("Beside the skill from Assignment 2", s["h2"]),
-        Paragraph("policy-funding-card decides which sentence enters the table, whether the money is new, and which IPOs count. better-writing decides how the findings read once those facts are fixed. A rewrite may not add a number that is not in the draft.", s["body"]),
-        Paragraph("How I would use it at work", s["h2"]),
-        Paragraph("After a technical note or a policy summary is checked against the source, I would use it on the explanation I hand to a colleague. It replaces a manual pass that deletes filler and inflated claims. It does not replace the check against the XML or the HKEX file.", s["body"]),
-        Paragraph("What I would change first in a fork", s["h2"]),
-        Paragraph("I would add one preflight line: every figure in the rewrite must appear in the draft, checked by a script, with tables, amounts, dates, and labels frozen.", s["body"]),
-    ]
-    write_pdf(A3 / "reflection.pdf", reflection)
 
 
 def better_writing_record(before: str, after: str) -> str:
@@ -1166,6 +1079,8 @@ def better_writing_record(before: str, after: str) -> str:
             "# better-writing run on the findings paragraph",
             "",
             "Skill: `.agents/skills/better-writing/SKILL.md`, version 1.3.0. Input: `influence_before.md`. Output: `influence_after.md`.",
+            "",
+            "The agent wrote the draft in the generic style the skill targets, then read SKILL.md and its references and followed the steps below.",
             "",
             "## 1. Brief",
             "",
@@ -1265,155 +1180,6 @@ def write_prose_files(d: Data, before: str, after: str) -> None:
         encoding="utf-8",
     )
 
-    (A1 / "report.md").write_text(
-        "\n".join(
-            [
-                "# Assignment 1 report",
-                "",
-                "CHEUNG Yuk Yuen, AI Application Trainee, Department of Physics. 7 October 2026.",
-                "",
-                "## The task",
-                "",
-                "I am CHEUNG Yuk Yuen. The reader is someone who wants to check public documents. The task covers the Policy Addresses after John Lee took office on 1 July 2022, through 16 September 2026. For each address I record which industries the Government funds with a stated amount, whether that money is new in the address, and what happened to those industries' IPOs on HKEX after delivery. A missing fact stays `not stated in source`. Two official figures that differ are both kept.",
-                "",
-                "## How I did it",
-                "",
-                "The first version compared each address with the HKEX total for the year of the speech. That total includes the months before delivery, so I moved the outcome to the following calendar year. A review of that version found more problems. Some funding sentences describe money announced before the address. The industry evidence came only from HKEX's ten-largest IPO list. A ratio divided government funding by later IPO funds, which are unrelated sums. This version fixes each of them.",
-                "",
-                "I read AGENTS.md and memory/PROFILE.md. The name on the work is CHEUNG Yuk Yuen.",
-                "",
-                "The Policy Address PDFs have no text layer in this environment. I used the Chief Executive's Office English XML, pa2022.xml through pa2026.xml, and copied the verb of every funding sentence into a status column.",
-                "",
-                "For industries I read every Main Board IPO in the HKEX New Listing Reports for 2021 to 29 September 2026. Biotech uses HKEX's B marker. Other industries use a keyword screen on the company name, published with its exclusions, and treated as a lower bound. Each address is scored from its delivery date to the day before the next one, against the 12 months before the first address.",
-                "",
-                "Chapter 18C is measured from its effective date, 31 March 2023, beside the HKMA Base Rate and Southbound Stock Connect turnover. The HK$10 billion I&T Industry-Oriented Fund is left out because it has not launched.",
-                "",
-                "better-writing rewrote the findings paragraph only. The run is recorded in `A3_CHEUNG_Yuk_Yuen/outputs/better_writing_run.md`.",
-                "",
-                "The workbook stores the printed amounts and every listing row in blue cells. Conversions, window totals, and shares are formulas, recalculated in LibreOffice.",
-                "",
-                "## Course concepts",
-                "",
-                "| Concept | How I used it | What changed |",
-                "| --- | --- | --- |",
-                "| Plan Mode | The outcome window was fixed before the cards were rebuilt: delivery date to the day before the next address. | No month before a speech is counted as its outcome. |",
-                "| AGENTS.md | Missing facts stay not stated in source. Differing official figures are both kept. Verbs decide whether money is new. | 286.9, 286.8, 285.8 and the NLR sum are listed, not averaged. 2025 has no new amount. |",
-                "| Skills | policy-funding-card extracts one address. better-writing edits the findings paragraph only. | The 2022 rerun did not copy a 2026 amount. |",
-                "| Memory | Only the identity stated in the earlier assignments. | No university, degree, or Chinese personal name was added. |",
-                "| MCP | HKEX figures and the funding rows sit in a Google Sheet. | Each comparison has its own tab. |",
-                "",
-                "## Result",
-                "",
-                "Card: `A1_CHEUNG_Yuk_Yuen/outputs/term_funding_card.md`. Charts: `A1_CHEUNG_Yuk_Yuen/outputs/charts/`.",
-                "",
-                f"Sheet: {SHEET}",
-                "",
-                "Workbook: `A1_CHEUNG_Yuk_Yuen/outputs/term_market.xlsx`.",
-                "",
-                "| Address | New in this address, HK$ million | Already in place, HK$ million |",
-                "| --- | --- | --- |",
-                *[f"| {y} | {m(d.new_total[y])} | {m(d.earlier_total[y])} |" for y in sorted(DELIVERED)],
-                "",
-                after,
-                "",
-                "![Quarterly IPO funds by policy industry](outputs/charts/industry_quarterly.png)",
-                "",
-            ]
-        ),
-        encoding="utf-8",
-    )
-
-    (A2 / "skill_note.md").write_text(
-        "\n".join(
-            [
-                "# Skill note",
-                "",
-                "Name: policy-funding-card.",
-                "",
-                "Trigger: one Policy Address, turned into a funding card and scored on the IPOs of the industries it names, from the delivery date.",
-                "",
-                "Use it when a new address is published and the question is which industries received a stated sum, whether the sum is new, and what those industries' IPOs did afterwards.",
-                "",
-                "Do not use it when there is no official text, when the question is a forecast, or when a newspaper figure would replace an HKEX figure.",
-                "",
-                f"The second run used only the 2022 XML. It found HK${m(d.new_total['2022'])} million of new money: the HK$30 billion Co-Investment Fund and the HK$10 billion RAISe+ Scheme. It marked the HK$5 billion Strategic Tech Fund as already in place. Its window runs {window_label(d, 'After 2022')}. In that window life and health raised HK${m(d.funds('After 2022', 'Life and health'))} million, {pct(d.share('After 2022', 'Life and health'))} of the Main Board, and the name screen found no new-energy IPO. The run does not contain the additional HK$1 billion for the Innovation and Technology Venture Fund. That sentence is in the 2026 address.",
-                "",
-                "![2022 address: the year before and the window after](outputs/run2_2022_before_after.png)",
-                "",
-            ]
-        ),
-        encoding="utf-8",
-    )
-
-    mb, ma = text_metrics(before), text_metrics(after)
-    (A3 / "reflection.md").write_text(
-        "\n".join(
-            [
-                "# Assignment 3 reflection",
-                "",
-                "CHEUNG Yuk Yuen, AI Application Trainee, Department of Physics.",
-                "",
-                "## Where I found it",
-                "",
-                "The assignment names better-writing. The page is https://skills.sh/forjd/better-writing/better-writing. I used it on the findings paragraph, because the tables have to keep the source figures and only the explanation needed work.",
-                "",
-                "## First use",
-                "",
-                "I wrote a rough draft of the findings, `outputs/influence_before.md`, and ran the skill's five steps on it: read the brief, set the reading, audit against the reference lists, rewrite, and run the preflight checks. The record is `outputs/better_writing_run.md`. The audit found throat-clearing, significance inflation, and an essay closer. Two clauses claimed a cause the figures do not show: \"a testament to the power of targeted policy\" and \"a driving force behind the market's transformation\". The skill says to cut inflation or restate it at its true strength, so both went.",
-                "",
-                "| Measure | Before | After |",
-                "| --- | --- | --- |",
-                *[f"| {k} | {mb[k]} | {ma[k]} |" for k in mb],
-                "",
-                "![Before and after counts](outputs/better_writing_counts.png)",
-                "",
-                "Every figure in the rewrite is also in the draft. A script checks that.",
-                "",
-                "## Friction",
-                "",
-                "The skill edits prose and does not check facts. When the draft said \"testament to the power of targeted policy\", the skill's rule removed the clause, but deciding that the claim was unsupported needed the funding status and the fund's launch date from the card.",
-                "",
-                "## Beside the skill from Assignment 2",
-                "",
-                "policy-funding-card decides which sentence enters the table, whether the money is new, and which IPOs count. better-writing decides how the findings read once those facts are fixed. A rewrite may not add a number that is not in the draft.",
-                "",
-                "## How I would use it at work",
-                "",
-                "After a technical note or a policy summary is checked against the source, I would use it on the explanation I hand to a colleague. It replaces a manual pass that deletes filler and inflated claims. It does not replace the check against the XML or the HKEX file.",
-                "",
-                "## What I would change first in a fork",
-                "",
-                "I would add one preflight line: every figure in the rewrite must appear in the draft, checked by a script, with tables, amounts, dates, and labels frozen.",
-                "",
-            ]
-        ),
-        encoding="utf-8",
-    )
-
-    (A3 / "skill_intro.md").write_text(
-        "\n".join(
-            [
-                "# better-writing",
-                "",
-                "## What it is",
-                "",
-                "better-writing rewrites prose for a named reader and genre. The trigger is a draft that should be clearer, or a request to remove generic AI phrasing. The steps are: read the brief, set the reading, audit the draft against its reference lists, rewrite, then self-audit with a preflight checklist. Facts, numbers, and quoted wording stay as they were, and inflated claims are cut or restated at their true strength.",
-                "",
-                "## How CHEUNG Yuk Yuen used it",
-                "",
-                "Install path: `.agents/skills/better-writing/SKILL.md`, also linked at `.cursor/skills/better-writing`.",
-                "",
-                "It was applied to the findings paragraph after policy-funding-card had filled the tables. The input was `A3_CHEUNG_Yuk_Yuen/outputs/influence_before.md`. The output is `influence_after.md`. Each step is recorded in `better_writing_run.md`. The rewrite removed two causal claims that the figures do not support.",
-                "",
-                "## Work application",
-                "",
-                "CHEUNG Yuk Yuen's post is AI Application Trainee in the Department of Physics. In that work, public technical or policy pages have to become a note someone else can check. better-writing is the last pass on the explanation. The tables stay with the extraction skill. The manual step it replaces is deleting filler and inflated claims before the note is handed on.",
-                "",
-            ]
-        ),
-        encoding="utf-8",
-    )
-
     (ROOT / "README.md").write_text(
         "\n".join(
             [
@@ -1425,7 +1191,7 @@ def write_prose_files(d: Data, before: str, after: str) -> None:
                 "",
                 "## Where the work is",
                 "",
-                "- Assignment 1: `A1_CHEUNG_Yuk_Yuen/`. Charts are in `outputs/charts/`.",
+                "- Assignment 1: `A1_CHEUNG_Yuk_Yuen/`. `report.pdf` is the one-page report; `outputs/analysis.pdf` holds every table and chart.",
                 "- Assignment 2: `A2_CHEUNG_Yuk_Yuen/`. The skill is `policy-funding-card`.",
                 "- Assignment 3: `A3_CHEUNG_Yuk_Yuen/`. The external skill is better-writing; the run is in `outputs/better_writing_run.md`.",
                 "- HKEX New Listing Reports, 2021 to 2026: `data/hkex_nlr/`.",
@@ -1468,6 +1234,9 @@ def main() -> None:
     xlsx = A1 / "outputs" / "term_market.xlsx"
     write_workbook(xlsx, d)
     write_pdfs(d, before, after)
+    import submission
+
+    submission.write_all(d, before, after)
     print("wrote", xlsx)
 
 

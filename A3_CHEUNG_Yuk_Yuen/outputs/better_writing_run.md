@@ -2,6 +2,8 @@
 
 Skill: `.agents/skills/better-writing/SKILL.md`, version 1.3.0. Input: `influence_before.md`. Output: `influence_after.md`.
 
+The agent wrote the draft in the generic style the skill targets, then read SKILL.md and its references and followed the steps below.
+
 ## 1. Brief
 
 - Genre: the findings paragraph of a coursework card that checks public documents.

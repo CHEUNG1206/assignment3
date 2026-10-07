@@ -6,7 +6,7 @@ The card lists industry and technology programmes with a stated amount in the Po
 
 ## Where the work is
 
-- Assignment 1: `A1_CHEUNG_Yuk_Yuen/`. Charts are in `outputs/charts/`.
+- Assignment 1: `A1_CHEUNG_Yuk_Yuen/`. `report.pdf` is the one-page report; `outputs/analysis.pdf` holds every table and chart.
 - Assignment 2: `A2_CHEUNG_Yuk_Yuen/`. The skill is `policy-funding-card`.
 - Assignment 3: `A3_CHEUNG_Yuk_Yuen/`. The external skill is better-writing; the run is in `outputs/better_writing_run.md`.
 - HKEX New Listing Reports, 2021 to 2026: `data/hkex_nlr/`.

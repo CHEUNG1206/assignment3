@@ -2,60 +2,36 @@
 
 CHEUNG Yuk Yuen, AI Application Trainee, Department of Physics. 7 October 2026.
 
-## The task
+## 1. The task
 
-I am CHEUNG Yuk Yuen. The reader is someone who wants to check public documents. The task covers the Policy Addresses after John Lee took office on 1 July 2022, through 16 September 2026. For each address I record which industries the Government funds with a stated amount, whether that money is new in the address, and what happened to those industries' IPOs on HKEX after delivery. A missing fact stays `not stated in source`. Two official figures that differ are both kept.
+I asked the agent to find which industries John Lee's Policy Addresses from 2022 to 2026 fund with a stated amount, and what happened to those industries' IPOs on HKEX after each address. The reader is someone who checks public documents. Sources: the Policy Address XML, the HKEX New Listing Reports, and HKEX market statistics.
 
-## How I did it
+## 2. How I did it
 
-The first version compared each address with the HKEX total for the year of the speech. That total includes the months before delivery, so I moved the outcome to the following calendar year. A review of that version found more problems. Some funding sentences describe money announced before the address. The industry evidence came only from HKEX's ten-largest IPO list. A ratio divided government funding by later IPO funds, which are unrelated sums. This version fixes each of them.
+1. Wrote the task brief and AGENTS.md rules: copy figures from the source, write not stated in source, keep conflicting official figures.
+2. The agent recalled memory/PROFILE.md, so the work names me only as CHEUNG Yuk Yuen, AI Application Trainee.
+3. The agent read the English Policy Address XML for 2022 to 2026 and listed every funding sentence that states an amount.
+4. The agent copied HKEX figures into a Google Sheet through the Google Sheets MCP.
+5. The first result compared each address with the same year's market. I pointed out that this counts months before the speech, so the outcome moved to the period after delivery.
+6. I asked for each funded industry, not the board total. The agent switched to every Main Board IPO in the HKEX New Listing Reports, counted from each delivery date.
+7. A review found money announced before an address counted as new, and a ratio of funding to IPO funds that compared unrelated sums. The agent added a status column from each sentence's verb and removed the ratio.
+8. The agent built the workbook with formulas, the charts and the PDFs, and packaged the workflow as the policy-funding-card skill for Assignment 2.
 
-I read AGENTS.md and memory/PROFILE.md. The name on the work is CHEUNG Yuk Yuen.
+## 3. Course concepts
 
-The Policy Address PDFs have no text layer in this environment. I used the Chief Executive's Office English XML, pa2022.xml through pa2026.xml, and copied the verb of every funding sentence into a status column.
-
-For industries I read every Main Board IPO in the HKEX New Listing Reports for 2021 to 29 September 2026. Biotech uses HKEX's B marker. Other industries use a keyword screen on the company name, published with its exclusions, and treated as a lower bound. Each address is scored from its delivery date to the day before the next one, against the 12 months before the first address.
-
-Chapter 18C is measured from its effective date, 31 March 2023, beside the HKMA Base Rate and Southbound Stock Connect turnover. The HK$10 billion I&T Industry-Oriented Fund is left out because it has not launched.
-
-better-writing rewrote the findings paragraph only. The run is recorded in `A3_CHEUNG_Yuk_Yuen/outputs/better_writing_run.md`.
-
-The workbook stores the printed amounts and every listing row in blue cells. Conversions, window totals, and shares are formulas, recalculated in LibreOffice.
-
-## Course concepts
-
-| Concept | How I used it | What changed |
+| Concept | How I used it | What it changed |
 | --- | --- | --- |
-| Plan Mode | The outcome window was fixed before the cards were rebuilt: delivery date to the day before the next address. | No month before a speech is counted as its outcome. |
-| AGENTS.md | Missing facts stay not stated in source. Differing official figures are both kept. Verbs decide whether money is new. | 286.9, 286.8, 285.8 and the NLR sum are listed, not averaged. 2025 has no new amount. |
-| Skills | policy-funding-card extracts one address. better-writing edits the findings paragraph only. | The 2022 rerun did not copy a 2026 amount. |
-| Memory | Only the identity stated in the earlier assignments. | No university, degree, or Chinese personal name was added. |
-| MCP | HKEX figures and the funding rows sit in a Google Sheet. | Each comparison has its own tab. |
+| AGENTS.md | Rules on sources, missing facts, conflicting figures, and which verbs make money new. | HKEX's 285.8, 286.8 and 286.9 billion for 2025 are all kept. The 2025 address has no new amount. |
+| Skills | policy-funding-card runs one address at a time. better-writing edits the findings only. | The 2022 rerun did not pick up a 2026 amount. |
+| Memory | memory/PROFILE.md holds the identity from my earlier assignments. | No university, degree, or Chinese name was added. |
+| MCP | The Google Sheets MCP holds the HKEX figures and the funding rows. | Each comparison has its own tab that a reader can open. |
 
-## Result
+## 4. Result
 
-Card: `A1_CHEUNG_Yuk_Yuen/outputs/term_funding_card.md`. Charts: `A1_CHEUNG_Yuk_Yuen/outputs/charts/`.
+Files: `outputs/term_funding_card.md`, `outputs/analysis.pdf` (all tables and charts), `outputs/term_market.xlsx`. Google Sheet: https://docs.google.com/spreadsheets/d/1Nr4XOrgmN3wJ44HHLVwDYQaRkt7oi6D_qz0EIGy9lJ0/edit
 
-Sheet: https://docs.google.com/spreadsheets/d/1Nr4XOrgmN3wJ44HHLVwDYQaRkt7oi6D_qz0EIGy9lJ0/edit
+![Share of Main Board IPO funds by window](outputs/charts/industry_window_shares.png)
 
-Workbook: `A1_CHEUNG_Yuk_Yuen/outputs/term_market.xlsx`.
+Main finding: semi-conductors went from no IPO to 12 IPOs and HK$39,983.4 million after the 2025 address, but the HK$10 billion fund that named them has not launched. Over the same windows the whole Main Board grew about fourfold, and HKEX credits global demand, frontier technology and listing reforms. The figures show timing, not that funding moved an industry.
 
-| Address | New in this address, HK$ million | Already in place, HK$ million |
-| --- | --- | --- |
-| 2022 | 40,000.0 | 5,000.0 |
-| 2023 | 14,300.0 | 0.0 |
-| 2024 | 13,930.0 | 0.0 |
-| 2025 | 0.0 | 4,100.0 |
-| 2026 | 1,300.0 | 2,000.0 |
-
-Semi-conductors had no Main Board IPO by the name screen in the four windows from 19 October 2021 to 16 September 2025. In the window after the 2025 address, 12 listed, starting on 5 December 2025, and raised HK$39,983.4 million, 7.9% of the Main Board. The 2024 address named semi-conductors beside the HK$10 billion I&T Industry-Oriented Fund. The 2026 address says that fund is expected to launch in 2026, so the money had not been paid out when these companies listed.
-
-AI and robotics went from no IPO before the 2022 address to HK$14,791.6 million after the 2025 address. Its share of the Main Board stayed between 2.8% and 3.7% in the three windows after the 2023 address. Chapter 18A biotech raised HK$18,604.4 million after the 2025 address, the most in any window, while its share fell from 9.4% before the 2022 address to 3.7%.
-
-Over the same windows the Main Board rose from HK$127,696.1 million to HK$508,850.3 million. HKEX attributes the 2025 rebound to global demand for diversified growth opportunities, frontier technologies in the region, and local market reforms. It does not mention the Policy Address.
-
-The HK$4.3 billion for film and CreateSmart was followed by only one film or creative IPO, HK$444.4 million, in the three windows after the 2023 address. No aerospace IPO followed the 2025 address, which cited an allocation of over HK$100 million. The HK$1 billion construction injection has 14 days of data after it and no construction IPO.
-
-The name screen misses Contemporary Amperex Technology. Adding its HK$41,005.7 million would make new energy 25.0% of the window after the 2024 address.
-
-![Quarterly IPO funds by policy industry](outputs/charts/industry_quarterly.png)
+Self-assessment: every figure traces to a source file and the method is written down; industry totals other than biotech come from a name screen, so they are lower bounds.
