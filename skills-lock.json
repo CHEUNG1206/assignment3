@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "better-writing": {
+      "source": "forjd/better-writing",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "4b7b8ef3d0bdb13b855418318a3c3f980df3327951639b7fae3524f7a4fdc3da"
+    },
+    "pdf": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pdf/SKILL.md",
+      "computedHash": "cfbc539377088ca7e44a813b30c306327385bbd973cd7a721e1743f60837dd62"
+    }
+  }
+}

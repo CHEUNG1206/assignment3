@@ -1,0 +1,35 @@
+.DS_Store
+Thumbs.db
+
+# Environment
+# Local secrets only; no .env.example is tracked, so no re-include is needed.
+.env
+.env.*
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editor and workspace state
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local scratch
+tmp/
+temp/
+
+# Model-produced eval rewrites: local-only outputs, never commit.
+# evals/outputs/ holds `run_skill.py` rewrites; evals/baseline/ holds the
+# matching --no-skill runs for pairwise comparison. Both are regenerated.
+evals/outputs/
+evals/baseline/

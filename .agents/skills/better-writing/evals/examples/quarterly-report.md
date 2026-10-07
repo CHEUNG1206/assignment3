@@ -1,0 +1,1 @@
+Churn rose for the second quarter in a row [churn figure needed]. It has been suggested internally that the March pricing change and onboarding drop-off may have contributed. Both point to the need for a retention plan.
