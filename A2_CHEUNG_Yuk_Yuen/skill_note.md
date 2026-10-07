@@ -2,10 +2,12 @@
 
 Name: policy-funding-card.
 
-Trigger: one Policy Address, turned into a funding card scored on the HKEX year after it.
+Trigger: one Policy Address, turned into a funding card and scored on the IPOs of the industries it names, from the delivery date.
 
-Use it when a new address is published and the question is which industries received a stated sum, and what IPO funds and turnover did in the next calendar year.
+Use it when a new address is published and the question is which industries received a stated sum, whether the sum is new, and what those industries' IPOs did afterwards.
 
 Do not use it when there is no official text, when the question is a forecast, or when a newspaper figure would replace an HKEX figure.
 
-The second run used only the 2022 XML. Its outcome year is 2023. Life and health appears as Kelun-Biotech at HK$1.56 billion. New energy appears as REPT BATTERO Energy at HK$2.12 billion and Sino-Synergy Hydrogen Energy at HK$1.56 billion. The board IPO total of HK$46,294.9 million is the denominator. The run does not contain the additional HK$1 billion for the Innovation and Technology Venture Fund. That sentence is in the 2026 address. The Co-Investment Fund in the 2022 address is HK$30 billion.
+The second run used only the 2022 XML. It found HK$40,000.0 million of new money: the HK$30 billion Co-Investment Fund and the HK$10 billion RAISe+ Scheme. It marked the HK$5 billion Strategic Tech Fund as already in place. Its window runs 19 Oct 2022 to 24 Oct 2023. In that window life and health raised HK$8,215.2 million, 17.4% of the Main Board, and the name screen found no new-energy IPO. The run does not contain the additional HK$1 billion for the Innovation and Technology Venture Fund. That sentence is in the 2026 address.
+
+![2022 address: the year before and the window after](outputs/run2_2022_before_after.png)

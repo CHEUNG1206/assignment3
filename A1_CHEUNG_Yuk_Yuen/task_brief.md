@@ -4,16 +4,17 @@ Author: CHEUNG Yuk Yuen, AI Application Trainee, Department of Physics. Universi
 
 Audience: a reader who wants to check public documents.
 
-Deliverable: one card for the Policy Addresses after John Lee took office on 1 July 2022, through the address of 16 September 2026. The card records the industries with a stated government amount, and the HKEX IPO funds and average daily turnover in the calendar year after each address.
+Deliverable: one card for the Policy Addresses after John Lee took office on 1 July 2022, through the address of 16 September 2026. The card records the industries with a stated government amount, whether the amount is new in that address, and the IPOs of those industries on the HKEX Main Board from each delivery date to the day before the next address.
 
 Success criteria:
 
 - Every amount has the official XML or an HKEX URL.
-- The outcome window is the next calendar year. The year of the speech is the baseline.
-- A partly published year is reported with its months. An unpublished year stays not stated in source.
+- Each funding row carries its verb and a status. Only new money counts towards an address's total.
+- Industry figures come from every IPO in the HKEX New Listing Reports, not from a top-ten list.
+- The outcome window starts on the delivery date. A partly published window is reported with its days.
 - Two different official figures are both kept.
-- The funding-to-IPO share is labelled as a size comparison.
+- No funding amount is divided by an IPO total.
 
-Sources: the English Policy Address XML for 2022 through 2026, and the HKEX pages copied into the Google Sheet HKEX original market figures.
+Sources: the English Policy Address XML for 2022 through 2026, the HKEX New Listing Reports for 2021 through 2026, and the HKEX pages copied into the Google Sheet HKEX original market figures.
 
-Boundaries: read those public files. Write under A1_CHEUNG_Yuk_Yuen/, A2_CHEUNG_Yuk_Yuen/, A3_CHEUNG_Yuk_Yuen/, and .cursor/skills/. Do not trade, register, or email.
+Boundaries: read those public files. Write under A1_CHEUNG_Yuk_Yuen/, A2_CHEUNG_Yuk_Yuen/, A3_CHEUNG_Yuk_Yuen/, data/, src/, and .cursor/skills/. Do not trade, register, or email.

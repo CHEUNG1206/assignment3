@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+# Source assignment uploads carry personal details that AGENTS.md keeps out of the work.
+uploads/

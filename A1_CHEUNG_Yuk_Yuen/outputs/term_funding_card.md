@@ -1,15 +1,15 @@
-# Funding and the market in the following year
+# Funding and the market after each address
 
 Prepared for CHEUNG Yuk Yuen, AI Application Trainee, Department of Physics.
 Period: John Lee took office on 1 July 2022. Policy Addresses from 19 October 2022 to 16 September 2026. Market sources read on 7 October 2026.
 
-The question is what the Government said it would fund, and what HKEX recorded in the calendar year after that address. The same year's full-year total is the baseline. It is not the outcome.
+The question is what the Government said it would fund, and what happened on HKEX to the industries it named after that address. The board total is context. Each industry is counted from every Main Board IPO in the HKEX New Listing Reports.
 
-A funding row is kept only when one sentence names an amount and commits, earmarks, injects, redeploys, or sets up a fund for an industry, technology, or cultural-industry programme.
+A funding row is kept only when one sentence names an amount and commits, earmarks, injects, redeploys, or sets up a fund for an industry, technology, or cultural-industry programme. The verb decides whether the money is new in that address.
 
 ## What the address said about the market
 
-These sentences describe the market up to delivery. They are context, not the following year.
+These sentences describe the market up to delivery. They are context, not the outcome.
 
 - 2022, delivered 2022-10-19. The address says Hong Kong has an active stock market. It states no IPO total and no turnover.
 - 2023, delivered 2023-10-25. Paragraph 71 accepts the recommendations of the Task Force on Enhancing Stock Market Liquidity. It states no IPO total.
@@ -19,44 +19,39 @@ These sentences describe the market up to delivery. They are context, not the fo
 
 ## Stated government amounts
 
-| Year | Programme | Amount | Industries | Source |
-| --- | --- | --- | --- | --- |
-| 2022 | Co-Investment Fund | 30 HK$ billion | Enterprises setting up in Hong Kong | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2022.xml |
-|  | Note |  | Set aside from the Future Fund. |  |
-| 2022 | RAISe+ Scheme | 10 HK$ billion | University research teams with potential to become start-ups | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2022.xml |
-|  | Note |  | Earmarked for launch the next year, on a matching basis, for at least 100 teams. |  |
-| 2022 | Strategic Tech Fund | 5 HK$ billion | Life and health technology, AI and data science, advanced manufacturing and new energy technology | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2022.xml |
-|  | Note |  | Used with OASES. The goal of attracting at least 100 I&T enterprises is a target, not a second government sum. |  |
-| 2023 | New Industrialisation Acceleration Scheme | 10 HK$ billion | Life and health technologies, AI and data science, advanced manufacturing, new energy technologies | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2023.xml |
-|  | Note |  | Matching of 1 (Government) to 2 (company), funding ceiling HK$200 million. |  |
-| 2023 | Film Development Fund and CreateSmart Initiative | 4.3 HK$ billion | Film, cultural and creative industries | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2023.xml |
-|  | Note |  | One injection shared by the two schemes. |  |
-| 2024 | Research Matching Grant Scheme | 1.5 HK$ billion | Research at institutions | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2024.xml |
-|  | Note |  | Paragraph 78. A new round. |  |
-| 2024 | I&T Industry-Oriented Fund | 10 HK$ billion | Life and health technology, AI and robotics, semi-conductors and smart devices, advanced materials, new energy | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2024.xml |
-|  | Note |  | Fund-of-funds. The 2026 address says it is expected to launch in 2026. |  |
-| 2024 | Innovation and Technology Venture Fund | 1.5 HK$ billion | Start-ups in strategic industries | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2024.xml |
-|  | Note |  | Redeployed to set up funds jointly with the market, on a matching basis. |  |
-| 2024 | I&T Accelerator Pilot Scheme | 180 HK$ million | Start-up accelerators | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2024.xml |
-|  | Note |  | Paragraph 80. Matching 1 to 2, subsidy ceiling HK$30 million. |  |
-| 2024 | New Energy Transport Fund | 750 HK$ million | Electric taxis and franchised buses, hydrogen fuel-cell heavy vehicles | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2024.xml |
-|  | Note |  | Paragraph 85 says around HK$750 million. |  |
-| 2025 | Frontier Technology Research Support Scheme | 3 HK$ billion | AI and other frontier research | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2025.xml |
-|  | Note |  | Paragraph 68. Announced earlier. Applications to open soon. |  |
-| 2025 | Hong Kong AI Research and Development Institute | 1 HK$ billion | AI research, transfer, and use cases | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2025.xml |
-|  | Note |  | Paragraph 69. Earmarked for establishment in 2026. |  |
-| 2025 | Aerospace Technology special call | 100 HK$ million | Aerospace technology | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2025.xml |
-|  | Note |  | The sentence says over HK$100 million for six university projects. The cell stores 100. |  |
-| 2026 | Innovation and Technology Venture Fund, enhanced scheme | 1 HK$ billion | I&T venture funds | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2026.xml |
-|  | Note |  | An additional earmark. It is not the HK$1.5 billion redeployed in 2024. |  |
-| 2026 | Artificial Intelligence Subsidy Scheme | 1 HK$ billion | High-performance computing for the AI institute | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2026.xml |
-|  | Note |  | Paragraph 201. |  |
-| 2026 | AI for Welfare Lab | 300 HK$ million | AI in social welfare services | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2026.xml |
-|  | Note |  | Paragraph 113. WelfareHK.ai. |  |
-| 2026 | Construction Innovation and Technology Fund | 1 HK$ billion | I&T in the construction industry | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2026.xml |
-|  | Note |  | Paragraph 333. The Construction Industry Council's HK$400 million is not government funding. |  |
+| Year | Programme | Amount | Status | Verb as printed | Industries |
+| --- | --- | --- | --- | --- | --- |
+| 2022 | Co-Investment Fund | 30 HK$ billion | new in this address | "set aside $30 billion from the Future Fund to establish the Co-Investment Fund" | Enterprises setting up in Hong Kong |
+| 2022 | RAISe+ Scheme | 10 HK$ billion | new in this address | "We will earmark $10 billion to launch" | University research teams with potential to become start-ups |
+| 2022 | Strategic Tech Fund | 5 HK$ billion | already in place before this address | "making use of the $5 billion Strategic Tech Fund" | Life and health technology, AI and data science, advanced manufacturing and new energy technology |
+| 2023 | New Industrialisation Acceleration Scheme | 10 HK$ billion | new in this address | "set up a $10 billion New Industrialisation Acceleration Scheme" | Life and health technologies, AI and data science, advanced manufacturing, new energy technologies |
+| 2023 | Film Development Fund and CreateSmart Initiative | 4.3 HK$ billion | new in this address | "We will also inject a total of $4.3 billion" | Film, cultural and creative industries |
+| 2024 | Research Matching Grant Scheme | 1.5 HK$ billion | new in this address | "The Government will launch a new round of Research Matching Grant Scheme totalling $1.5 billion" | Research at institutions |
+| 2024 | I&T Industry-Oriented Fund | 10 HK$ billion | new in this address | "setting up a $10 billion I&T Industry-Oriented Fund" | Life and health technology, AI and robotics, semi-conductors and smart devices, advanced materials, new energy |
+| 2024 | Innovation and Technology Venture Fund | 1.5 HK$ billion | new in this address | "We will redeploy $1.5 billion" | Start-ups in strategic industries |
+| 2024 | I&T Accelerator Pilot Scheme | 180 HK$ million | new in this address | "The Government will launch the I&T Accelerator Pilot Scheme with a funding allocation of $180 million" | Start-up accelerators |
+| 2024 | New Energy Transport Fund | 750 HK$ million | new in this address | "The Government will earmark around $750 million" | Electric taxis and franchised buses, hydrogen fuel-cell heavy vehicles |
+| 2025 | Frontier Technology Research Support Scheme | 3 HK$ billion | already in place before this address | "The Government earlier announced the launch of the $3 billion" | AI and other frontier research |
+| 2025 | Hong Kong AI Research and Development Institute | 1 HK$ billion | already in place before this address | "We have also earmarked $1 billion" | AI research, transfer, and use cases |
+| 2025 | Aerospace Technology special call | 100 HK$ million | already in place before this address | "has allocated over $100 million" | Aerospace technology |
+| 2026 | Innovation and Technology Venture Fund, enhanced scheme | 1 HK$ billion | already in place before this address | "An additional $1 billion has been earmarked" | I&T venture funds |
+| 2026 | Artificial Intelligence Subsidy Scheme | 1 HK$ billion | new in this address | "The Government will inject $1 billion" | High-performance computing for the AI institute |
+| 2026 | AI for Welfare Lab | 300 HK$ million | new in this address | "A sum of $300 million will be allocated" | AI in social welfare services |
+| 2026 | Construction Innovation and Technology Fund | 1 HK$ billion | already in place before this address | "We injected $1 billion into the Construction Innovation and Technology Fund (CITF) this year" | I&T in the construction industry |
 
-## HKEX in the following year
+Source for every row: the English XML for that year, https://www.ceo.gov.hk/public/open-data/en/policy_address/paYEAR.xml. Notes per row are in the workbook, sheet Inputs.
+
+| Address | New in this address, HK$ million | Already in place, HK$ million |
+| --- | --- | --- |
+| 2022 | 40,000.0 | 5,000.0 |
+| 2023 | 14,300.0 | 0.0 |
+| 2024 | 13,930.0 | 0.0 |
+| 2025 | 0.0 | 4,100.0 |
+| 2026 | 1,300.0 | 2,000.0 |
+
+The 2025 address states no new amount for an industry. Its three amounts were announced, earmarked, or allocated before 17 September 2025.
+
+## HKEX board in the following calendar year
 
 | Address | Delivered | Outcome window | Label |
 | --- | --- | --- | --- |
@@ -69,85 +64,127 @@ These sentences describe the market up to delivery. They are context, not the fo
 | Market year | Indicator | Value | Unit | Printed change | As of | Source |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2023 | IPO | 46294.9 | HK$ million | -55.8% | 29 Dec 2023 | https://www.hkex.com.hk/-/media/HKEX-Market/Market-Data/Statistics/Consolidated-Reports/Annual-Market-Statistics/FY_2023-Annual-Market-Stat_Eng.pdf |
-|  | Note |  | Market Statistics 2023, p.3. Main Board and GEM. Outcome of the 19 Oct 2022 address. |  |  |  |
 | 2023 | ADT | 105012 | HK$ million | -15.9% | 29 Dec 2023 | https://www.hkex.com.hk/-/media/HKEX-Market/Market-Data/Statistics/Consolidated-Reports/Annual-Market-Statistics/FY_2023-Annual-Market-Stat_Eng.pdf |
-|  | Note |  | Market Statistics 2023, p.3. Average daily turnover. |  |  |  |
 | 2024 | IPO | 87477.8 | HK$ million | +88.9% | 31 Dec 2024 | https://www.hkex.com.hk/-/media/HKEX-Market/Market-Data/Statistics/Consolidated-Reports/Annual-Market-Statistics/2024FY-Ann-Mkt-Stat_eng.pdf |
-|  | Note |  | Market Statistics 2024, p.3. Main Board and GEM. Outcome of the 25 Oct 2023 address. |  |  |  |
 | 2024 | ADT | 131825 | HK$ million | +25.5% | 31 Dec 2024 | https://www.hkex.com.hk/-/media/HKEX-Market/Market-Data/Statistics/Consolidated-Reports/Annual-Market-Statistics/2024FY-Ann-Mkt-Stat_eng.pdf |
-|  | Note |  | Market Statistics 2024, p.3. Average daily turnover. |  |  |  |
 | 2025 | IPO | 286.9 | HK$ billion | +226% | 31 Dec 2025 | https://www.hkex.com.hk/-/media/HKEX-Market/News/News-Release/2026/260226news/260226news_eng.pdf |
-|  | Note |  | 2025 Final Results, p.11. 119 IPOs. Page 17 prints 286.8 and is not averaged in. |  |  |  |
 | 2025 | ADT | 249.8 | HK$ billion | +90% | 31 Dec 2025 | https://www.hkex.com.hk/-/media/HKEX-Market/News/News-Release/2026/260226news/260226news_eng.pdf |
-|  | Note |  | 2025 Final Results, p.11. Headline ADT. Outcome of the 16 Oct 2024 address. |  |  |  |
 | 2026 | IPO | 342.4 | HK$ billion | +153% | 31 Aug 2026 | https://www.hkex.com.hk/Market-Data/Statistics/Consolidated-Reports/HKEX-Monthly-Market-Highlights?sc_lang=en |
-|  | Note |  | First eight months only, versus HK$135.1 billion a year earlier. Partial outcome of the 17 Sep 2025 address. |  |  |  |
 | 2026 | ADT | 282.5 | HK$ billion | +14% | 31 Aug 2026 | https://www.hkex.com.hk/Market-Data/Statistics/Consolidated-Reports/HKEX-Monthly-Market-Highlights?sc_lang=en |
-|  | Note |  | First eight months, versus HK$248.3 billion a year earlier. |  |  |  |
 
-2027 is not stated in source. The 16 September 2026 address therefore has no following-year total.
-The 2025 results print HK$286.9 billion on pages 7 and 11, and 286.8 on page 17. The outcome row uses 286.9. 286.8 is kept in the Google Sheet and is not averaged.
-Market Statistics 2024, printed page 7, lists the ten largest IPOs. The amount column is in HK$ billion. Horizon Robotics is 6.09, RoboSense is 1.06, InnoScience is 1.40, and Midea Group is 35.67.
+2027 is not stated in source. These totals are context for the industry rows. A funding amount is not divided by them, because a government fund and the money investors pay for new shares are different sums.
 
-## The industry, not the board
+## Every IPO, by the industry the address named
 
-A row is an HKEX fact that names the industry, or an explicit statement that the page does not. The board IPO total is not copied into a blank industry cell.
+Source: HKEX New Listing Reports, Main Board, https://www2.hkexnews.hk/-/media/HKEXnews/Homepage/New-Listings/New-Listing-Information/New-Listing-Report/Main/NLR2021_Eng.xlsx through NLR2026_Eng.xlsx. Copies are in `data/hkex_nlr/`. The 2026 report runs up to 29 September 2026. Funds raised is the Hong Kong offer row plus the international offer row. Listings by introduction raise nothing and count as IPOs with zero funds.
 
-| Policy industry | Address | Outcome window | HKEX evidence | Amount | Unit |
-| --- | --- | --- | --- | --- | --- |
-| Life and health | 2022 | 2023 full year | Sichuan Kelun-Biotech Biopharmaceutical, ten largest IPOs | 1.56 | HK$ billion |
-|  | Note |  | Market Statistics 2023, printed page 7. The printed name includes Biotech and the -B marker. | https://www.hkex.com.hk/-/media/HKEX-Market/Market-Data/Statistics/Consolidated-Reports/Annual-Market-Statistics/FY_2023-Annual-Market-Stat_Eng.pdf |  |
-| New energy | 2022 | 2023 full year | REPT BATTERO Energy, ten largest IPOs | 2.12 | HK$ billion |
-|  | Note |  | Market Statistics 2023, printed page 7. The printed name includes Energy. | https://www.hkex.com.hk/-/media/HKEX-Market/Market-Data/Statistics/Consolidated-Reports/Annual-Market-Statistics/FY_2023-Annual-Market-Stat_Eng.pdf |  |
-| New energy | 2022 | 2023 full year | Sino-Synergy Hydrogen Energy Technology, ten largest IPOs | 1.56 | HK$ billion |
-|  | Note |  | Market Statistics 2023, printed page 7. The printed name includes Hydrogen Energy. | https://www.hkex.com.hk/-/media/HKEX-Market/Market-Data/Statistics/Consolidated-Reports/Annual-Market-Statistics/FY_2023-Annual-Market-Stat_Eng.pdf |  |
-| AI and robotics | 2023 | 2024 full year | Horizon Robotics, ten largest IPOs | 6.09 | HK$ billion |
-|  | Note |  | Market Statistics 2024, printed page 7. The 2023 address says AI and data science. The printed name says Robotics. | https://www.hkex.com.hk/-/media/HKEX-Market/Market-Data/Statistics/Consolidated-Reports/Annual-Market-Statistics/2024FY-Ann-Mkt-Stat_eng.pdf |  |
-| AI and robotics | 2023 | 2024 full year | RoboSense Technology, ten largest IPOs | 1.06 | HK$ billion |
-|  | Note |  | Market Statistics 2024, printed page 7. | https://www.hkex.com.hk/-/media/HKEX-Market/Market-Data/Statistics/Consolidated-Reports/Annual-Market-Statistics/2024FY-Ann-Mkt-Stat_eng.pdf |  |
-| Specialist technology | 2023 | 2024 full year | Chapter 18C listings | 3 | companies |
-|  | Note |  | 2024 Final Results, p.11. First Chapter 18C listing was 13 June 2024. The five 18C industries are not split. | https://www.hkex.com.hk/-/media/HKEX-Market/News/News-Release/2025/250227news/250227_FY-Results_e.pdf |  |
-| New economy, wider than the policy list | 2023 | 2024 full year | Share of capital raised | almost 82% |  |
-|  | Note |  | 2024 Final Results, p.11. HKEX does not define new economy as the Policy Address industry list. | https://www.hkex.com.hk/-/media/HKEX-Market/News/News-Release/2025/250227news/250227_FY-Results_e.pdf |  |
-| Life and health | 2024 | 2025 full year | Biotech Companies listed | 16 | companies |
-|  | Note |  | Listing Committee Report 2025, p.3. | https://www.hkex.com.hk/-/media/HKEX-Market/Listing/How-We-Regulate/Listing-Committee/Listing-Committee-Report/AnnualRpt_2025dec.pdf |  |
-| Specialist technology | 2024 | 2025 full year | Specialist Technology Companies listed | 5 | companies |
-|  | Note |  | Listing Committee Report 2025, p.3. Combined with the 16 biotech listings, HK$19.8 billion. | https://www.hkex.com.hk/-/media/HKEX-Market/Listing/How-We-Regulate/Listing-Committee/Listing-Committee-Report/AnnualRpt_2025dec.pdf |  |
-| Life and health plus specialist technology | 2024 | 2025 full year | Funds raised by the 16 biotech and 5 specialist technology listings | 19.8 | HK$ billion |
-|  | Note |  | The page prints one combined sum. It is not split between the two chapters. | https://www.hkex.com.hk/-/media/HKEX-Market/Listing/How-We-Regulate/Listing-Committee/Listing-Committee-Report/AnnualRpt_2025dec.pdf |  |
-| Life and health | 2024 | 2025 full year | HengRui Pharma, H-share listing | 11.4 | HK$ billion |
-|  | Note |  | Listing Committee Report 2025, p.2. Named separately from the HK$19.8 billion. Not added to it. | https://www.hkex.com.hk/-/media/HKEX-Market/Listing/How-We-Regulate/Listing-Committee/Listing-Committee-Report/AnnualRpt_2025dec.pdf |  |
-| New energy | 2024 | 2025 full year | Contemporary Amperex Technology, named among the largest IPOs | not stated in source |  |
-|  | Note |  | Listing Committee Report 2025, p.2 names the company and does not print its proceeds. | https://www.hkex.com.hk/-/media/HKEX-Market/Listing/How-We-Regulate/Listing-Committee/Listing-Committee-Report/AnnualRpt_2025dec.pdf |  |
-| AI | 2024 | 2025 full year | Hesai, WeRide and Pony AI, named as homecoming listings | not stated in source |  |
-|  | Note |  | Listing Committee Report 2025, p.2. No separate proceeds. | https://www.hkex.com.hk/-/media/HKEX-Market/Listing/How-We-Regulate/Listing-Committee/Listing-Committee-Report/AnnualRpt_2025dec.pdf |  |
-| Semi-conductors | 2024 | 2025 full year | No semiconductor IPO total | not stated in source |  |
-|  | Note |  | The 2024 address names semi-conductors and smart devices. The 2025 Listing Committee report does not. | https://www.hkex.com.hk/-/media/HKEX-Market/Listing/How-We-Regulate/Listing-Committee/Listing-Committee-Report/AnnualRpt_2025dec.pdf |  |
-| Advanced materials | 2024 | 2025 full year | No advanced-materials IPO total | not stated in source |  |
-|  | Note |  | Advanced materials is one of five Chapter 18C industries, Listing Committee Report 2023, p.6. The 2025 count of five specialist technology listings is not split. | https://www.hkex.com.hk/-/media/HKEX-Market/Listing/How-We-Regulate/Listing-Committee/Listing-Committee-Report/AnnualRpt_2023dec.pdf |  |
-| Film and creative industries | 2023 | 2024 full year | No film IPO line | not stated in source |  |
-|  | Note |  | Market Statistics 2024 does not report film or CreateSmart fundraising. | https://www.hkex.com.hk/-/media/HKEX-Market/Market-Data/Statistics/Consolidated-Reports/Annual-Market-Statistics/2024FY-Ann-Mkt-Stat_eng.pdf |  |
-| Aerospace | 2025 | 2026, first eight months | No aerospace IPO line | not stated in source |  |
-|  | Note |  | The highlights page has no industry split. Cirrus Aircraft, HK$1.51 billion, is on the 2024 ten-largest list, before this earmark. | https://www.hkex.com.hk/Market-Data/Statistics/Consolidated-Reports/HKEX-Monthly-Market-Highlights?sc_lang=en |  |
-| Construction | 2026 | 2027 not published | No construction IPO line | not stated in source |  |
-|  | Note |  | The following year is not published. | https://www.hkex.com.hk/Market-Data/Statistics/Consolidated-Reports/HKEX-Monthly-Market-Highlights?sc_lang=en |  |
+HKEX prints no industry column. Its only industry tags are the B marker for Chapter 18A biotech and the P marker for pre-commercial Chapter 18C companies. Every other row below is a keyword screen on the company name. It is called a name screen and it is a lower bound.
 
-Chapter 18C's five industries are printed in the Listing Committee Report 2023, p.6: next-generation information technology, advanced hardware and software, advanced materials, new energy and environmental protection, and new food and agriculture technologies.
-The 2025 Listing Committee report also prints an IPO total of HK$285.8 billion. The results announcement prints HK$286.9 billion, and p.17 prints 286.8. They are not averaged. The industry share uses HK$285.8 billion because HK$19.8 billion and HK$11.4 billion are in the Listing Committee report.
+Name-screen keywords, matched case-insensitively:
 
-## Scale
+- Life and health: `pharm|bio|therap|medic|health|hospital|genetic|gene\b|diagnos|vaccin|clinic`
+- AI and robotics: `\brobo|\bai\b|artificial intelligence|autonomous|\bdeep|unmanned`
+- Semi-conductors: `semiconductor|chip|microelectronic|integrated circuit|silicon|wafer`
+- New energy: `energy|batter|hydrogen energy|solar|photovolt|lithium|new power|charging|electric vehicle`
+- Film and creative: `film|pictures|movie|animation|studio|entertainment|\bmedia\b|\bculture|\bcultural`
+- Aerospace: `aero|aircraft|aviation|\bspace|satellite|drone`
+- Construction: `construction|(?<!gene )engineering|building`
 
-Stated amounts in an address, converted to HK$ million, divided by IPO funds in the outcome window. The workbook calculates the ratio. It is a size comparison. HKEX does not call it a cause.
+Removed by hand, with the reason the name gives:
 
-- 2022 address, HK$45 billion stated, against 2023 IPO funds of HK$46,294.9 million.
-- 2023 address, HK$14.3 billion stated, against 2024 IPO funds of HK$87,477.8 million.
-- 2024 address, HK$13.93 billion stated, against 2025 IPO funds of HK$286.9 billion.
-- 2025 address, HK$4.1 billion stated, against HK$342.4 billion raised in the first eight months of 2026. A full 2026 year would make this share smaller.
-- 2026 address, HK$3.3 billion stated. The 2027 IPO total is not stated in source, so no share is calculated.
+- 02370 Redco Healthy Living Company Limited, from Life and health. Healthy Living is property management.
+- 02530 Numans Health Food Holdings Company Limited, from Life and health. Health Food is food.
+
+Windows run from a delivery date to the day before the next address. The first column is the 12 months before the first address. Each cell is IPOs / HK$ million / share of the Main Board total in the same window, from the same file.
+
+- Before 2022: 19 Oct 2021 to 18 Oct 2022
+- After 2022: 19 Oct 2022 to 24 Oct 2023
+- After 2023: 25 Oct 2023 to 15 Oct 2024
+- After 2024: 16 Oct 2024 to 16 Sep 2025
+- After 2025: 17 Sep 2025 to 15 Sep 2026
+- After 2026: 16 Sep 2026 to 29 Sep 2026
+
+| Policy industry | Tag basis | Before 2022 | After 2022 | After 2023 | After 2024 | After 2025 | After 2026 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Chapter 18A biotech (B marker) | HKEX B marker | 12 / 11,999.7 / 9.4% | 9 / 4,526.9 / 9.6% | 4 / 1,557.1 / 2.1% | 11 / 8,283.3 / 4.7% | 17 / 18,604.4 / 3.7% | 0 / 0.0 / 0.0% |
+| Life and health | name screen | 17 / 14,814.5 / 11.6% | 17 / 8,215.2 / 17.4% | 7 / 3,491.0 / 4.6% | 18 / 21,777.3 / 12.4% | 29 / 30,044.8 / 5.9% | 0 / 0.0 / 0.0% |
+| AI and robotics | name screen | 0 / 0.0 / 0.0% | 0 / 0.0 / 0.0% | 2 / 2,101.1 / 2.8% | 2 / 6,454.9 / 3.7% | 9 / 14,791.6 / 2.9% | 1 / 5,177.9 / 25.0% |
+| Semi-conductors | name screen | 0 / 0.0 / 0.0% | 0 / 0.0 / 0.0% | 0 / 0.0 / 0.0% | 0 / 0.0 / 0.0% | 12 / 39,983.4 / 7.9% | 0 / 0.0 / 0.0% |
+| New energy | name screen | 1 / 13,458.0 / 10.5% | 0 / 0.0 / 0.0% | 2 / 3,687.4 / 4.9% | 3 / 2,800.0 / 1.6% | 1 / 5,060.7 / 1.0% | 0 / 0.0 / 0.0% |
+| Film and creative | name screen | 2 / 420.1 / 0.3% | 2 / 635.3 / 1.3% | 0 / 0.0 / 0.0% | 0 / 0.0 / 0.0% | 1 / 444.4 / 0.1% | 0 / 0.0 / 0.0% |
+| Aerospace | name screen | 0 / 0.0 / 0.0% | 0 / 0.0 / 0.0% | 1 / 1,513.2 / 2.0% | 0 / 0.0 / 0.0% | 0 / 0.0 / 0.0% | 0 / 0.0 / 0.0% |
+| Construction | name screen | 1 / 125.0 / 0.1% | 2 / 1,790.0 / 3.8% | 2 / 317.4 / 0.4% | 0 / 0.0 / 0.0% | 1 / 174.7 / 0.0% | 0 / 0.0 / 0.0% |
+| Main Board, all IPOs | NLR rows | 85 / 127,696.1 / 100% | 79 / 47,269.0 / 100% | 67 / 75,293.8 / 100% | 85 / 175,474.3 / 100% | 165 / 508,850.3 / 100% | 6 / 20,708.6 / 100% |
+
+Life and health includes the Chapter 18A row. The After 2026 window is 14 days long.
+
+![Quarterly IPO funds by policy industry](charts/industry_quarterly.png)
+
+![Share of Main Board IPO funds by window](charts/industry_window_shares.png)
+
+## Companies the name screen misses
+
+HKEX does not print these companies' industries in the New Listing Reports. The industry is the trainee's reading, so the funds sit beside the totals above and are not added in.
+
+| Code | Company | Listed | Window | Industry, trainee's reading | HK$ million | Basis |
+| --- | --- | --- | --- | --- | --- | --- |
+| 03750 | Contemporary Amperex Technology Co., Limited - H shares | 2025-05-20 | After 2024 | New energy | 41,005.7 | Battery maker. Named among the largest 2025 IPOs in the Listing Committee Report 2025, p.2, without an industry. |
+| 06082 | Shanghai Biren Technology Co., Ltd.- H shares | 2026-01-02 | After 2025 | Semi-conductors | 6,420.4 | GPU designer. Chapter 18C, HKEX 18C Explained. |
+| 02577 | InnoScience (Suzhou) Technology Holding Co., Ltd. - H shares | 2024-12-30 | After 2024 | Semi-conductors | 1,451.3 | Gallium-nitride chip maker. |
+| 02533 | Black Sesame International Holding Limited | 2024-08-08 | After 2023 | Semi-conductors | 1,036.0 | Automotive AI chip designer. Chapter 18C, HKEX 18C Explained. |
+| 00100 | MiniMax Group Inc. - W - P | 2026-01-09 | After 2025 | AI and robotics | 5,540.2 | AI model developer. Chapter 18C, P marker in the NLR. |
+| 02513 | Knowledge Atlas Technology Joint Stock Company Limited - H shares | 2026-01-08 | After 2025 | AI and robotics | 5,000.4 | AI model developer. Chapter 18C, HKEX 18C Explained. |
+| 00800 | WeRide Inc. - W | 2025-11-06 | After 2025 | AI and robotics | 2,391.6 | Autonomous driving. Chapter 18C, HKEX 18C Explained. |
+| 02525 | Hesai Group - W | 2025-09-16 | After 2024 | AI and robotics | 4,784.3 | Lidar maker. Named as a homecoming listing in the Listing Committee Report 2025, p.2. |
+
+The largest effect is new energy. In the window after the 2024 address the screen finds HK$2,800.0 million, 1.6% of the Main Board. With Contemporary Amperex Technology it would be HK$43,805.7 million, 25.0%.
+
+## Timing
+
+The New Listing Report prints the prospectus date and the listing date, not the date the application was filed. The preparation time before a listing therefore cannot be measured from it. The table below gives each industry's share from each delivery date to 29 September 2026, so a listing that came late is still counted after the address that named its industry.
+
+| Industry | First listing in the data | From 2022 | From 2023 | From 2024 | From 2025 | From 2026 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Chapter 18A biotech (B marker) | 2021-10-19 | 32,971.9 (4.0%) | 28,444.9 (3.6%) | 26,887.8 (3.8%) | 18,604.4 (3.5%) | 0.0 (0.0%) |
+| Life and health | 2021-10-19 | 63,528.3 (7.7%) | 55,313.1 (7.1%) | 51,822.1 (7.4%) | 30,044.8 (5.7%) | 0.0 (0.0%) |
+| AI and robotics | 2023-12-29 | 28,525.5 (3.4%) | 28,525.5 (3.7%) | 26,424.4 (3.7%) | 19,969.5 (3.8%) | 5,177.9 (25.0%) |
+| Semi-conductors | 2025-12-05 | 39,983.4 (4.8%) | 39,983.4 (5.1%) | 39,983.4 (5.7%) | 39,983.4 (7.6%) | 0.0 (0.0%) |
+| New energy | 2022-07-13 | 11,548.2 (1.4%) | 11,548.2 (1.5%) | 7,860.8 (1.1%) | 5,060.7 (1.0%) | 0.0 (0.0%) |
+| Film and creative | 2022-08-10 | 1,079.7 (0.1%) | 444.4 (0.1%) | 444.4 (0.1%) | 444.4 (0.1%) | 0.0 (0.0%) |
+| Aerospace | 2024-07-12 | 1,513.2 (0.2%) | 1,513.2 (0.2%) | 0.0 (0.0%) | 0.0 (0.0%) | 0.0 (0.0%) |
+| Construction | 2022-10-10 | 2,282.1 (0.3%) | 492.0 (0.1%) | 174.7 (0.0%) | 174.7 (0.0%) | 0.0 (0.0%) |
+
+First listing in the data counts from 2021-10-19. Semi-conductors first appears on 2025-12-05, about 14 months after the 16 October 2024 address that named it, and inside the window after the 2025 address.
+
+## HKEX figures that disagree
+
+Each share uses one source for both numerator and denominator. The New Listing Report shares use the same report's Main Board total. Different official totals are kept and not averaged.
+
+| Topic | Source | Figure |
+| --- | --- | --- |
+| 2022 IPO funds | Market Statistics 2022, p.3, Main Board and GEM | HK$104,570.3 million |
+| 2022 IPO funds | New Listing Report 2022, Main Board rows summed | 90 IPOs, HK$104,622.4 million |
+| 2023 IPO funds | Market Statistics 2023, p.3, Main Board and GEM | HK$46,294.9 million |
+| 2023 IPO funds | New Listing Report 2023, Main Board rows summed | 73 IPOs, HK$46,321.2 million |
+| 2024 IPO funds | Market Statistics 2024, p.3, Main Board and GEM | HK$87,477.8 million |
+| 2024 IPO funds | 2024 Final Results, p.11 | 71 new listings, HK$88.0 billion |
+| 2024 IPO funds | New Listing Report 2024, Main Board rows summed | 68 IPOs, HK$87,740.0 million |
+| 2025 IPO funds | Listing Committee Report 2025, p.2 | HK$285.8 billion |
+| 2025 IPO funds | 2025 Final Results, pp.7 and 11 | HK$286.9 billion, 119 IPOs |
+| 2025 IPO funds | 2025 Final Results, p.17 | HK$286.8 billion |
+| 2025 IPO funds | New Listing Report 2025, Main Board rows summed | 118 IPOs, HK$286,836.1 million |
+| 2025 Chapter 18C count | Listing Committee Report 2025, p.3 | five Specialist Technology Companies by year end |
+| 2025 Chapter 18C count | Listing Committee Report 2025, TECH section | six Main Board Chapter 18C companies from the launch of TECH on 6 May 2025 to 31 December 2025 |
+| 2025 Chapter 18C count | HKEX 18C Explained | five listings dated 2025 |
+| 2025 Chapter 18A count | Listing Committee Report 2025, p.3 | 16 Biotech Companies |
+| 2025 Chapter 18A count | Listing Committee Report 2025, TECH section | 13 Main Board Chapter 18A companies from 6 May 2025 to 31 December 2025 |
+| 2025 Chapter 18A count | New Listing Report 2025, B markers | 16 |
+| 2025 combined 18A and 18C funds | Listing Committee Report 2025, p.3 | HK$19.8 billion for the 16 and the five together. Not split. |
+| 2024 new economy | 2024 Final Results, p.11 | almost 82 per cent of the capital raised. HKEX does not define new economy as the Policy Address list, so this is not used for any industry. |
 
 ## From the day the rule started
 
-The measure is Chapter 18C, effective 31 March 2023. Listings under that chapter before that day were zero, because the chapter did not exist. The HK$10 billion I&T Industry-Oriented Fund is left out. The 2026 Policy Address still said it was expected to launch in 2026, and that page gives no disbursement date.
+The measure is Chapter 18C, effective 31 March 2023. Listings under that chapter before that day were zero, because the chapter did not exist. The HK$10 billion I&T Industry-Oriented Fund is left out. The 2026 Policy Address says it is expected to launch in 2026, and that page gives no disbursement date.
 
 Source for every listing: HKEX, 18C Explained, as of end-March 2026. The page states 14 companies and HK$28.4 billion. The rows below are the same table.
 
@@ -170,35 +207,35 @@ Source for every listing: HKEX, 18C Explained, as of end-March 2026. The page st
 
 Page: https://www.hkexgroup.com/Media-Centre/Insight/Insight/2026/HKEX-Insight/18C-Explained?sc_lang=en
 
-The same years, with the HKMA Base Rate at year end and Southbound Stock Connect average daily turnover. The 18C funds are the sum of the rows above. The share uses the board IPO total for that year.
-
-| Year | 18C listings | 18C funds, HK$ million | Base Rate, year end | Southbound ADT, HK$ billion | Board IPO, HK$ million |
-| --- | --- | --- | --- | --- | --- |
-| 2022 | 0 | 0 | 4.75% | 31.7 | 104,570.3 |
-| 2023 | 0 | 0 | 5.75% | 31.1 | 46,294.9 |
-| 2024 | 3 | 2,903 | 4.75% | 48.2 | 87,477.8 |
-| 2025 | 5 | 6,014 | 4.00% | 121.1 | 285,800 |
-| 2026 to 31 Mar | 6 | 19,518 | not stated in source | not stated in source | not stated in source |
+| Year | 18C listings | 18C funds, HK$ million | Base Rate, year end | Southbound ADT, HK$ billion | Board IPO, HK$ million | NLR B-marker IPOs |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2022 | 0 | 0 | 4.75% | 31.7 | 104,570.3 | 8 |
+| 2023 | 0 | 0 | 5.75% | 31.1 | 46,294.9 | 7 |
+| 2024 | 3 | 2,903 | 4.75% | 48.2 | 87,477.8 | 4 |
+| 2025 | 5 | 6,014 | 4.00% | 121.1 | 285,800.0 | 16 |
+| 2026 to 31 Mar | 6 | 19,518 | not stated in source | not stated in source | not stated in source | 11 (to 29 Sep) |
 
 Base Rate: https://www.hkma.gov.hk/media/eng/publication-and-research/annual-report/2022/14_Monetary_Stability.pdf ; https://www.hkma.gov.hk/media/eng/publication-and-research/annual-report/2024/14_Monetary_Stability.pdf ; https://www.hkma.gov.hk/media/eng/publication-and-research/annual-report/2025/AR_2025E.pdf
 Southbound: https://www.hkexgroup.com/Media-Centre/Insight/Insight/2026/HKEX-Insight/Stock-Connect-2025-Review?sc_lang=en
 
-HKEX's 2024 annual report says the global IPO market was still affected by high interest rates, and that Hong Kong's second-half recovery followed stimulus measures in Mainland China. The 2025 results attribute that rebound to global IPO demand, frontier technologies in the region, and local market reforms.
+![Chapter 18C funds with the Base Rate and Southbound ADT](charts/c18_before_after.png)
 
-Biotech already had Chapter 18A. New biotech listings were 20 in 2021 and 8 in 2022 (Market Statistics 2022, p.3) and 16 in 2025 (Listing Committee Report 2025, p.3). Counts for 2023 and 2024 are not stated in those HKEX pages.
+HKEX, 2024 Final Results, p.11: "While the global IPO market continued to be impacted by high interest rates and slow economic growth, Hong Kong's IPO market saw a significant recovery in the second half of the year. The increased confidence was driven by several sizeable deals, including, on 17 September 2024, the largest IPO in the city since 2021. It was given further momentum by the announcement of stimulus measures in Mainland China in the later part of the year."
 
-The rule is the date the count leaves zero. The first listing, XtalPi, was on 13 June 2024. Of the HK$28,435 million in the table, HK$19,518 million is in the first quarter of 2026, after the Base Rate had been cut to 4.00% and after Southbound ADT had reached HK$121.1 billion. The 2024 18C funds are about 3.3% of that year's IPO total. The 2025 18C funds are about 2.1% of HK$285.8 billion.
+HKEX, 2025 Final Results, p.11: "Hong Kong led a rebound in the global IPO market in 2025, with the surge of listings being further accelerated by global demand for diversified growth opportunities, the evolution of frontier technologies in the region and local market reforms."
 
-## Influence
+Only the 2025 sentence names local market reforms. Neither names the Policy Address.
 
-Each funded industry is scored on the HKEX line that names it in the following year. The board IPO total is only the denominator.
+The count leaves zero on 13 June 2024, 14 months after the rule. Of the HK$28,435 million in the table, HK$19,518 million is in the first quarter of 2026, after the Base Rate had been cut to 4.00% and Southbound ADT had reached HK$121.1 billion. Chapter 18A has existed since 2018; its B-marker IPOs in the New Listing Reports were 20 in 2021, 8 in 2022, 7 in 2023, 4 in 2024, 16 in 2025, and 11 in 2026 to 29 September.
 
-Life and health technology is named in the 2022 Strategic Tech Fund, the 2023 New Industrialisation Acceleration Scheme, and the 2024 I&T Industry-Oriented Fund. In 2023, Sichuan Kelun-Biotech raised HK$1.56 billion, on the ten-largest list. Market Statistics 2023 prints no biotech count. In 2024, the results print no biotech count. In 2025, the Listing Committee records 16 Biotech Companies. With five Specialist Technology Companies, those listings raised HK$19.8 billion. The same report's IPO total is HK$285.8 billion. HengRui Pharma, an H-share named separately, raised HK$11.4 billion. The page does not add that to the HK$19.8 billion.
+## What the figures show
 
-AI and data science is the 2022 and 2023 wording. AI and robotics is the 2024 wording. In 2024, Horizon Robotics raised HK$6.09 billion and RoboSense HK$1.06 billion. HKEX records three Chapter 18C listings that year, the first on 13 June 2024. Chapter 18C, from 31 March 2023, covers next-generation information technology, advanced hardware and software, advanced materials, new energy and environmental protection, and new food and agriculture technologies. The three listings are not split across those five industries. In 2025 the Listing Committee names Hesai, WeRide and Pony AI and records five Specialist Technology Companies. It prints no separate AI proceeds.
+Semi-conductors had no Main Board IPO by the name screen in the four windows from 19 October 2021 to 16 September 2025. In the window after the 2025 address, 12 listed, starting on 5 December 2025, and raised HK$39,983.4 million, 7.9% of the Main Board. The 2024 address named semi-conductors beside the HK$10 billion I&T Industry-Oriented Fund. The 2026 address says that fund is expected to launch in 2026, so the money had not been paid out when these companies listed.
 
-New energy is named from 2022 onward. In 2023, REPT BATTERO Energy raised HK$2.12 billion and Sino-Synergy Hydrogen Energy HK$1.56 billion. In 2025 the Listing Committee names Contemporary Amperex Technology among the largest IPOs and prints no proceeds for it.
+AI and robotics went from no IPO before the 2022 address to HK$14,791.6 million after the 2025 address. Its share of the Main Board stayed between 2.8% and 3.7% in the three windows after the 2023 address. Chapter 18A biotech raised HK$18,604.4 million after the 2025 address, the most in any window, while its share fell from 9.4% before the 2022 address to 3.7%.
 
-Semi-conductors and advanced materials are named in the 2024 fund. The 2025 report has no semiconductor total and no advanced-materials total. The HK$4.3 billion film and creative injection has no film line in the 2024 statistics. The aerospace earmark of over HK$100 million has no aerospace line in the first eight months of 2026. Cirrus Aircraft, HK$1.51 billion, is a 2024 IPO. The HK$1 billion construction injection has no 2027 figure.
+Over the same windows the Main Board rose from HK$127,696.1 million to HK$508,850.3 million. HKEX attributes the 2025 rebound to global demand for diversified growth opportunities, frontier technologies in the region, and local market reforms. It does not mention the Policy Address.
 
-The board and these industries do not move as one number. IPO funds fell 55.8% in 2023 while Kelun-Biotech and the two energy companies were still on the ten-largest list. IPO funds rose 226% in 2025, while the 16 biotech and five specialist technology listings together raised HK$19.8 billion.
+The HK$4.3 billion for film and CreateSmart was followed by only one film or creative IPO, HK$444.4 million, in the three windows after the 2023 address. No aerospace IPO followed the 2025 address, which cited an allocation of over HK$100 million. The HK$1 billion construction injection has 14 days of data after it and no construction IPO.
+
+The name screen misses Contemporary Amperex Technology. Adding its HK$41,005.7 million would make new energy 25.0% of the window after the 2024 address.
