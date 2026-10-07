@@ -1,73 +1,114 @@
-# 任期資金與市場卡片
+# Funding and the market in the following year
 
-期間：2022 年 7 月 1 日李家超就任行政長官，至 2026 年 10 月 7 日。
-政府原文：行政長官辦公室公開 XML。港交所原文：Google 試算表 HKEX original market figures 內已核對的行列。
+Prepared for CHEUNG Yuk Yuen, AI Application Trainee, Department of Physics.
+Period: John Lee took office on 1 July 2022. Policy Addresses from 19 October 2022 to 16 September 2026. Market sources read on 7 October 2026.
 
-這張卡只收產業、創科或金融計劃裡，同一句寫了金額，並且用了撥款、預留、注資、調撥或設立基金的項目。教育、福利和工程的其他金額留在 XML，不放進這張表。
+The question is what the Government said it would fund, and what HKEX recorded in the calendar year after that address. The same year's full-year total is the baseline. It is not the outcome.
 
-## 市場說法
+A funding row is kept only when one sentence names an amount and commits, earmarks, injects, redeploys, or sets up a fund for an industry, technology, or cultural-industry programme.
 
-- 2022 年 2022-10-19 發表。正文寫香港有交投活躍的股票市場，沒有寫新股集資額或成交額。
-- 2023 年 2023-10-25 發表。第 71 段接納促進股票市場流動性專責小組的建議，沒有寫新股集資額。
-- 2024 年 2024-10-16 發表。金融市場段落寫人工智能、代幣化和穩定幣的政策方向，沒有寫新股集資額。
-- 2025 年 2025-09-17 發表。第 92 段寫恒生指數自年初上升逾兩成，每日平均成交額接近 2,500 億元，新股集資額至八月底累計逾 1,300 億元。
-- 2026 年 2026-09-16 發表。第 36 段寫截至今年 8 月底的新股集資額超過 3,400 億港元。
+## What the address said about the market
 
-## 寫明金額的政府計劃
+These sentences describe the market up to delivery. They are context, not the following year.
 
-| 年 | 計劃 | 金額 | 產業 | 來源 |
+- 2022, delivered 2022-10-19. The address says Hong Kong has an active stock market. It states no IPO total and no turnover.
+- 2023, delivered 2023-10-25. Paragraph 71 accepts the recommendations of the Task Force on Enhancing Stock Market Liquidity. It states no IPO total.
+- 2024, delivered 2024-10-16. The financial-market paragraphs set a direction for artificial intelligence, tokenisation, and stablecoins. They state no IPO total.
+- 2025, delivered 2025-09-17. Paragraph 92, delivered on 17 September, says the Hang Seng Index had risen by over 20% year to date, average daily turnover had reached HK$250 billion, and IPO funds by the end of August exceeded HK$130 billion. Those figures pre-date delivery.
+- 2026, delivered 2026-09-16. Paragraph 36, delivered on 16 September, says IPO funds as of the end of August exceeded HK$340 billion. The HKEX highlights page dates that total to 31 August.
+
+## Stated government amounts
+
+| Year | Programme | Amount | Industries | Source |
 | --- | --- | --- | --- | --- |
-| 2022 | 共同投資基金 | 300 億元 | 吸引企業落戶 | https://www.ceo.gov.hk/public/open-data/tc/policy_address/pa2022.xml |
-|  | 備註 |  | 從未來基金撥出，成立共同投資基金。段落見 XML，並在附篇重覆一次。 |  |
-| 2022 | 產學研1+計劃 | 100 億元 | 大學科研成果商品化 | https://www.ceo.gov.hk/public/open-data/tc/policy_address/pa2022.xml |
-|  | 備註 |  | 在創新及科技基金下設立，總資助額 100 億元，由 2023 年開始。 |  |
-| 2022 | 策略性創科基金 | 50 億元 | 生命健康科技、人工智能與數據科學、先進製造與新能源 | https://www.ceo.gov.hk/public/open-data/tc/policy_address/pa2022.xml |
-|  | 備註 |  | 正文寫配合 50 億元策略性創科基金。另寫的「過百億元投資」是吸引企業的目標，不是另一筆政府撥款。 |  |
-| 2023 | 新型工業加速計劃 | 100 億元 | 生命健康科技、人工智能與數據科學、先進製造與新能源 | https://www.ceo.gov.hk/public/open-data/tc/policy_address/pa2023.xml |
-|  | 備註 |  | 總資助額 100 億元。單一項目配對資助最多 2 億元，比例為政府 1 比公司 2。 |  |
-| 2023 | 電影發展基金及創意智優計劃 | 43 億元 | 文化創意 | https://www.ceo.gov.hk/public/open-data/tc/policy_address/pa2023.xml |
-|  | 備註 |  | 第 63 段：兩個計劃共注資 43 億元。 |  |
-| 2024 | 研究配對補助金計劃 | 15 億元 | 院校研究 | https://www.ceo.gov.hk/public/open-data/tc/policy_address/pa2024.xml |
-|  | 備註 |  | 第 78 段。 |  |
-| 2024 | 創科產業引導基金 | 100 億元 | 生命健康科技、人工智能與機械人、半導體與智能設備、先進材料、新能源 | https://www.ceo.gov.hk/public/open-data/tc/policy_address/pa2024.xml |
-|  | 備註 |  | 設立母基金。2026 年正文寫預期年內啟動，沒有再寫一個新的金額。 |  |
-| 2024 | 創科創投基金聯合基金 | 15 億元 | 策略性產業初創 | https://www.ceo.gov.hk/public/open-data/tc/policy_address/pa2024.xml |
-|  | 備註 |  | 調撥 15 億元與業界配對。 |  |
-| 2024 | 創科加速器先導計劃 | 1.8 億元 | 初創企業加速 | https://www.ceo.gov.hk/public/open-data/tc/policy_address/pa2024.xml |
-|  | 備註 |  | 第 80 段。配對比例政府 1 比機構 2，資助上限 3,000 萬元。 |  |
-| 2024 | 新能源運輸基金預留 | 7.5 億元 | 電動的士及專營巴士、氫能重型車試驗 | https://www.ceo.gov.hk/public/open-data/tc/policy_address/pa2024.xml |
-|  | 備註 |  | 第 85 段寫「約 7.5 億元」。 |  |
-| 2025 | 前沿科技研究支援計劃 | 30 億元 | 人工智能等前沿科研 | https://www.ceo.gov.hk/public/open-data/tc/policy_address/pa2025.xml |
-|  | 備註 |  | 第 68 段：早前宣布，將於短期內接受申請。 |  |
-| 2025 | 香港人工智能研發院 | 10 億元 | 人工智能研發與應用 | https://www.ceo.gov.hk/public/open-data/tc/policy_address/pa2025.xml |
-|  | 備註 |  | 第 69 段：已預留十億元，於 2026 年成立。 |  |
-| 2025 | 航天科技特別徵集 | 1 億元 | 航天科技 | https://www.ceo.gov.hk/public/open-data/tc/policy_address/pa2025.xml |
-|  | 備註 |  | 第 159 段寫「逾 1 億元」，表內金額取正文的 1，並在備註保留「逾」。 |  |
-| 2026 | 創科創投基金優化計劃 | 10 億元 | 創科創投 | https://www.ceo.gov.hk/public/open-data/tc/policy_address/pa2026.xml |
-|  | 備註 |  | 預留額外 10 億元。這是 2024 年 15 億元那一行以外的新句子。 |  |
-| 2026 | 人工智能資助計劃 | 10 億元 | 人工智能算力 | https://www.ceo.gov.hk/public/open-data/tc/policy_address/pa2026.xml |
-|  | 備註 |  | 第 201 段：向計劃注資 10 億元。 |  |
-| 2026 | 社福 AI 實驗室 | 3 億元 | 社福服務中的人工智能應用 | https://www.ceo.gov.hk/public/open-data/tc/policy_address/pa2026.xml |
-|  | 備註 |  | 第 113 段。 |  |
-| 2026 | 建造業創新及科技基金 | 10 億元 | 建造業創新科技 | https://www.ceo.gov.hk/public/open-data/tc/policy_address/pa2026.xml |
-|  | 備註 |  | 第 333 段：政府注資 10 億元。建造業議會另出資 4 億元，不計入政府金額。 |  |
+| 2022 | Co-Investment Fund | 30 HK$ billion | Enterprises setting up in Hong Kong | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2022.xml |
+|  | Note |  | Set aside from the Future Fund. |  |
+| 2022 | RAISe+ Scheme | 10 HK$ billion | University research teams with potential to become start-ups | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2022.xml |
+|  | Note |  | Earmarked for launch the next year, on a matching basis, for at least 100 teams. |  |
+| 2022 | Strategic Tech Fund | 5 HK$ billion | Life and health technology, AI and data science, advanced manufacturing and new energy technology | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2022.xml |
+|  | Note |  | Used with OASES. The goal of attracting at least 100 I&T enterprises is a target, not a second government sum. |  |
+| 2023 | New Industrialisation Acceleration Scheme | 10 HK$ billion | Life and health technologies, AI and data science, advanced manufacturing, new energy technologies | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2023.xml |
+|  | Note |  | Matching of 1 (Government) to 2 (company), funding ceiling HK$200 million. |  |
+| 2023 | Film Development Fund and CreateSmart Initiative | 4.3 HK$ billion | Film, cultural and creative industries | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2023.xml |
+|  | Note |  | One injection shared by the two schemes. |  |
+| 2024 | Research Matching Grant Scheme | 1.5 HK$ billion | Research at institutions | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2024.xml |
+|  | Note |  | Paragraph 78. A new round. |  |
+| 2024 | I&T Industry-Oriented Fund | 10 HK$ billion | Life and health technology, AI and robotics, semi-conductors and smart devices, advanced materials, new energy | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2024.xml |
+|  | Note |  | Fund-of-funds. The 2026 address says it is expected to launch in 2026. |  |
+| 2024 | Innovation and Technology Venture Fund | 1.5 HK$ billion | Start-ups in strategic industries | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2024.xml |
+|  | Note |  | Redeployed to set up funds jointly with the market, on a matching basis. |  |
+| 2024 | I&T Accelerator Pilot Scheme | 180 HK$ million | Start-up accelerators | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2024.xml |
+|  | Note |  | Paragraph 80. Matching 1 to 2, subsidy ceiling HK$30 million. |  |
+| 2024 | New Energy Transport Fund | 750 HK$ million | Electric taxis and franchised buses, hydrogen fuel-cell heavy vehicles | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2024.xml |
+|  | Note |  | Paragraph 85 says around HK$750 million. |  |
+| 2025 | Frontier Technology Research Support Scheme | 3 HK$ billion | AI and other frontier research | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2025.xml |
+|  | Note |  | Paragraph 68. Announced earlier. Applications to open soon. |  |
+| 2025 | Hong Kong AI Research and Development Institute | 1 HK$ billion | AI research, transfer, and use cases | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2025.xml |
+|  | Note |  | Paragraph 69. Earmarked for establishment in 2026. |  |
+| 2025 | Aerospace Technology special call | 100 HK$ million | Aerospace technology | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2025.xml |
+|  | Note |  | The sentence says over HK$100 million for six university projects. The cell stores 100. |  |
+| 2026 | Innovation and Technology Venture Fund, enhanced scheme | 1 HK$ billion | I&T venture funds | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2026.xml |
+|  | Note |  | An additional earmark. It is not the HK$1.5 billion redeployed in 2024. |  |
+| 2026 | Artificial Intelligence Subsidy Scheme | 1 HK$ billion | High-performance computing for the AI institute | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2026.xml |
+|  | Note |  | Paragraph 201. |  |
+| 2026 | AI for Welfare Lab | 300 HK$ million | AI in social welfare services | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2026.xml |
+|  | Note |  | Paragraph 113. WelfareHK.ai. |  |
+| 2026 | Construction Innovation and Technology Fund | 1 HK$ billion | I&T in the construction industry | https://www.ceo.gov.hk/public/open-data/en/policy_address/pa2026.xml |
+|  | Note |  | Paragraph 333. The Construction Industry Council's HK$400 million is not government funding. |  |
 
-## 港交所同年數字
+## HKEX in the following year
 
-| 年 | 指標 | 數字 | 單位 | 頁面日期 | 影響標籤 |
-| --- | --- | --- | --- | --- | --- |
-| 2022 | IPO funds raised, Main Board and GEM | 104570.3 | HK$ million | 30 Dec 2022 | 市場結果早於這份施政報告 |
-| 2023 | IPO funds raised, Main Board and GEM | 46294.9 | HK$ million | 29 Dec 2023 | 同一年同時出現，來源沒有寫因果 |
-| 2024 | IPOs, Main Board, as printed | 87.8 | as printed | 2025 results, p.17 | 同一年同時出現，來源沒有寫因果 |
-| 2025 | IPO fundraising, narrative | 286.9 | HK$ billion | 31 Dec 2025 | 市場結果早於這份施政報告 |
-| 2025 | IPOs, Main Board, as printed | 286.8 | as printed | 2025 results, p.17 | 市場結果早於這份施政報告 |
-| 2026 | Funds raised through IPOs, first eight months | 342.4 | HK$ billion | 31 Aug 2026 | 市場結果早於這份施政報告 |
+| Address | Delivered | Outcome window | Label |
+| --- | --- | --- | --- |
+| 2022 | 2022-10-19 | 2023 full year | following year recorded, source does not attribute it to the address |
+| 2023 | 2023-10-25 | 2024 full year | following year recorded, source does not attribute it to the address |
+| 2024 | 2024-10-16 | 2025 full year | following year recorded, source does not attribute it to the address |
+| 2025 | 2025-09-17 | 2026, first eight months | following year only partly published |
+| 2026 | 2026-09-16 | 2027 not published | following year not yet published |
 
-2022 年港交所全年數包含 1 月至 6 月，當時他尚未就任，也包含 10 月 19 日施政報告之前的月份。
-2025 年施政報告引用的是八月底之前的數字，發表日是 9 月 17 日。2026 年引用的是 8 月底，發表日是 9 月 16 日，港交所每月摘要的 3,424 億元更新至 8 月 31 日。
-2025 年業績公告第 7 頁寫 286.9，第 17 頁印 286.8。兩格都保留。
-2024 年 87.8 是同一頁印出的數字，該行沒有再印單位，所以不換算成億元。
+| Market year | Indicator | Value | Unit | Printed change | As of | Source |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2023 | IPO | 46294.9 | HK$ million | -55.8% | 29 Dec 2023 | https://www.hkex.com.hk/-/media/HKEX-Market/Market-Data/Statistics/Consolidated-Reports/Annual-Market-Statistics/FY_2023-Annual-Market-Stat_Eng.pdf |
+|  | Note |  | Market Statistics 2023, p.3. Main Board and GEM. Outcome of the 19 Oct 2022 address. |  |  |  |
+| 2023 | ADT | 105012 | HK$ million | -15.9% | 29 Dec 2023 | https://www.hkex.com.hk/-/media/HKEX-Market/Market-Data/Statistics/Consolidated-Reports/Annual-Market-Statistics/FY_2023-Annual-Market-Stat_Eng.pdf |
+|  | Note |  | Market Statistics 2023, p.3. Average daily turnover. |  |  |  |
+| 2024 | IPO | 87477.8 | HK$ million | +88.9% | 31 Dec 2024 | https://www.hkex.com.hk/-/media/HKEX-Market/Market-Data/Statistics/Consolidated-Reports/Annual-Market-Statistics/2024FY-Ann-Mkt-Stat_eng.pdf |
+|  | Note |  | Market Statistics 2024, p.3. Main Board and GEM. Outcome of the 25 Oct 2023 address. |  |  |  |
+| 2024 | ADT | 131825 | HK$ million | +25.5% | 31 Dec 2024 | https://www.hkex.com.hk/-/media/HKEX-Market/Market-Data/Statistics/Consolidated-Reports/Annual-Market-Statistics/2024FY-Ann-Mkt-Stat_eng.pdf |
+|  | Note |  | Market Statistics 2024, p.3. Average daily turnover. |  |  |  |
+| 2025 | IPO | 286.9 | HK$ billion | +226% | 31 Dec 2025 | https://www.hkex.com.hk/-/media/HKEX-Market/News/News-Release/2026/260226news/260226news_eng.pdf |
+|  | Note |  | 2025 Final Results, p.11. 119 IPOs. Page 17 prints 286.8 and is not averaged in. |  |  |  |
+| 2025 | ADT | 249.8 | HK$ billion | +90% | 31 Dec 2025 | https://www.hkex.com.hk/-/media/HKEX-Market/News/News-Release/2026/260226news/260226news_eng.pdf |
+|  | Note |  | 2025 Final Results, p.11. Headline ADT. Outcome of the 16 Oct 2024 address. |  |  |  |
+| 2026 | IPO | 342.4 | HK$ billion | +153% | 31 Aug 2026 | https://www.hkex.com.hk/Market-Data/Statistics/Consolidated-Reports/HKEX-Monthly-Market-Highlights?sc_lang=en |
+|  | Note |  | First eight months only, versus HK$135.1 billion a year earlier. Partial outcome of the 17 Sep 2025 address. |  |  |  |
+| 2026 | ADT | 282.5 | HK$ billion | +14% | 31 Aug 2026 | https://www.hkex.com.hk/Market-Data/Statistics/Consolidated-Reports/HKEX-Monthly-Market-Highlights?sc_lang=en |
+|  | Note |  | First eight months, versus HK$248.3 billion a year earlier. |  |  |  |
 
-## 影響說明
+2027 is not stated in source. The 16 September 2026 address therefore has no following-year total.
+The 2025 results print HK$286.9 billion on pages 7 and 11, and 286.8 on page 17. The outcome row uses 286.9. 286.8 is kept in the Google Sheet and is not averaged.
+Market Statistics 2024, printed page 7, lists the ten largest IPOs. The amount column is in HK$ billion. Horizon Robotics is 6.09, RoboSense is 1.06, InnoScience is 1.40, and Midea Group is 35.67.
 
-從 2022 年 7 月 1 日到 2026 年 10 月 7 日，施政報告和港交所寫的是兩件不同的事。2022 年施政報告說股票市場交投活躍，沒有寫新股集資額。2023 年施政報告接納流動性專責小組的建議，也沒有寫集資額。2025 年施政報告寫恒生指數自年初上升逾兩成，並寫新股集資額至八月底逾 1,300 億元；發表日是 9 月 17 日，所以這組數字在發表之前。2026 年施政報告寫截至 8 月底集資額超過 3,400 億港元；港交所每月摘要寫首八個月 3,424 億元，更新日是 8 月 31 日，早於 9 月 16 日的發表。港交所的全年數還包含發表前的月份，不能用來量度發表之後的市場。表裡的政府金額是正文寫明要撥、預留或注資的計劃，不是從集資額倒推回來的。
+## Scale
+
+Stated amounts in an address, converted to HK$ million, divided by IPO funds in the outcome window. The workbook calculates the ratio. It is a size comparison. HKEX does not call it a cause.
+
+- 2022 address, HK$45 billion stated, against 2023 IPO funds of HK$46,294.9 million.
+- 2023 address, HK$14.3 billion stated, against 2024 IPO funds of HK$87,477.8 million.
+- 2024 address, HK$13.93 billion stated, against 2025 IPO funds of HK$286.9 billion.
+- 2025 address, HK$4.1 billion stated, against HK$342.4 billion raised in the first eight months of 2026. A full 2026 year would make this share smaller.
+- 2026 address, HK$3.3 billion stated. The 2027 IPO total is not stated in source, so no share is calculated.
+
+## Influence
+
+The market after each Policy Address is the next calendar year, not the year the speech describes.
+
+After 19 October 2022, HKEX recorded IPO funds of HK$46,294.9 million in 2023, down 55.8%, and average daily turnover of HK$105,012 million, down 15.9%. The address had set aside HK$30 billion for the Co-Investment Fund, HK$10 billion for RAISe+, and HK$5 billion for the Strategic Tech Fund. Those stated sums come to HK$45 billion, close to the size of the 2023 IPO total. The year after the first package was a smaller IPO market, not a larger one.
+
+After 25 October 2023, IPO funds in 2024 were HK$87,477.8 million, up 88.9%, and average daily turnover was HK$131,825 million, up 25.5%. Horizon Robotics (HK$6.09 billion) and RoboSense (HK$1.06 billion) were on the list of the ten largest IPOs, as was InnoScience (HK$1.40 billion). Midea Group was the largest, at HK$35.67 billion. The New Industrialisation Acceleration Scheme was HK$10 billion, with a ceiling of HK$200 million per project.
+
+After 16 October 2024, Hong Kong raised HK$286.9 billion from 119 IPOs in 2025, up 226%, and headline average daily turnover reached HK$249.8 billion, up 90%. New economy sectors accounted for 66% of capital raised, including 21 listings under the Chapter 18 series for biotech and specialist technology. HKEX attributes the rebound to global IPO demand, frontier technologies in the region, and local market reforms. The HK$10 billion I&T Industry-Oriented Fund was still expected to launch in 2026, so it was not deploying through that IPO year. The sums named in the 2024 address are about 5% of the 2025 IPO total.
+
+After 17 September 2025, the first eight months of 2026 raised HK$342.4 billion through IPOs, up 153% on HK$135.1 billion a year earlier, and average daily turnover was HK$282.5 billion, up 14%. Those eight months fall after the address. They leave out September to December 2025 and the rest of 2026. The Hong Kong AI Research and Development Institute, earmarked at HK$1 billion, was to be established in 2026.
+
+The address of 16 September 2026 adds HK$1 billion for the Innovation and Technology Venture Fund, HK$1 billion for the Artificial Intelligence Subsidy Scheme, HK$300 million for the AI for Welfare Lab, and HK$1 billion for the Construction Innovation and Technology Fund. HKEX has not published 2027. The August 2026 highlights stop on 31 August, before this address, so they are not its outcome.

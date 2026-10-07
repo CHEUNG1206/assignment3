@@ -1,25 +1,27 @@
-# 作業 3 反思
+# Assignment 3 reflection
 
-## 發現
+CHEUNG Yuk Yuen, AI Application Trainee, Department of Physics.
 
-作業說明列出 better-writing。頁面是 https://skills.sh/forjd/better-writing/better-writing 。我選它，是因為資金表必須留住原句，說明段才需要改寫。
+## Where I found it
 
-## 第一次使用
+The assignment names better-writing. The page is https://skills.sh/forjd/better-writing/better-writing. I used it because the funding table has to keep the source sentences, and only the influence paragraph needed a rewrite.
 
-底稿是一段空泛的英文，放在 `outputs/influence_before.md`。改寫後的中文在 `influence_after.md`。它保留 2025 年八月底、2026 年 8 月 31 日，以及集資額早於發表日。金額沒有改。
+## First use
 
-## 摩擦
+The draft is `outputs/influence_before.md`, a generic English paragraph. The rewrite is `influence_after.md`. It keeps the following-year path: 2023 down 55.8%, 2024 up 88.9%, 2025 up 226% to HK$286.9 billion, and the first eight months of 2026 at HK$342.4 billion. Dates and amounts were not changed.
 
-Skill 要求先定讀者和不能改的事實。若把整張表都交給它，撥款數字有被改寫的風險。觸發範圍要寫成只改影響段。
+## Friction
 
-## 和作業 2 的比較
+The skill asks for the reader and for the facts that must not move. If the whole table is handed to it, a funding figure can be reworded. The trigger is limited to the influence paragraph.
 
-policy-funding-card 規定什麼句子可以進表。better-writing 規定改寫時保留事實。值得留下的規則是：改寫不得增刪來源裡的數字。
+## Beside the skill from Assignment 2
 
-## 工作上會怎樣用
+policy-funding-card decides which sentence enters the table and which HKEX year is the outcome. better-writing decides how the paragraph reads once those facts are fixed. A rewrite may not add or remove a number that is in the source.
 
-政策或技術摘要寫完之後，用它把說明段改成可以交給同事的版本。它取代手動刪掉空話，不取代核對原文。
+## How I would use it at work
 
-## 若分叉，先改哪裡
+After a technical note or a policy summary is checked against the source, I would use it on the explanation I hand to a colleague. It replaces a manual pass that deletes filler. It does not replace the check against the XML or the HKEX page.
 
-先加一條：表格、金額、日期和標籤凍結，只允許改說明段。
+## What I would change first in a fork
+
+I would freeze tables, amounts, dates, and labels, and allow edits only in the explanation.
